@@ -14,7 +14,7 @@
 
 "searchConfig":[
 {
-	"configName":"蛋蛋",
+	"configName":"屁屁",
 	"configType":"WebPage",
 	"extensions":"unknown",
 	"itemNameRegex":"<li><a href=\".*\\d*/sid/\\d*/nid/\\d*\\.html\">(.*)</a></li>",
