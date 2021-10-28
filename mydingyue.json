@@ -7,7 +7,7 @@
 	"message":"还有谁值得信任呢，伤心又失望",
 	"searchConfig":[
 		{
-			"configName":"星空TV",
+			"configName":"聚彩",
 			"configType":"MacCMS",
 			"encrypted":true,
 			"matchSource":"anySource",
@@ -16,7 +16,7 @@
 			"usable":true
 		},
 		{
-			"configName":"策驰",
+			"configName":"优源",
 			"configType":"MacCMS",
 			"encrypted":true,
 			"matchSource":"anySource",
@@ -25,7 +25,7 @@
 			"usable":true
 		},
 		{
-			"configName":"萌果CJ",
+			"configName":"果果",
 			"configType":"MacCMS",
 			"encrypted":true,
 			"extensions":"undetermined",
@@ -36,7 +36,7 @@
 			"searchUrl":"jpszl4cgFPnhjtSVlpEZML6gkxSzkQDgMLEAFbEcl39hla9PjKsZFQNgN38/MKG9maZYNK9djLHz6bmYJLeuNKnxMPVLkQ6YTr=="
 		},
 		{
-			"configName":"椰子资源CJ",
+			"configName":"叶子影音",
 			"configType":"MacCMS",
 			"encrypted":true,
 			"extensions":"undetermined",
@@ -47,7 +47,7 @@
 			"searchUrl":"jpszlpG1Fx91OtSbMbVSFaSZm3SXkW9VloYfloVhFQExkQNANovgma9YFy9VMy0PjKsZkPqAlQramPr9O0HZML6Xjnmglas9"
 		},
 		{
-			"configName":"人人迷CJ",
+			"configName":"可好影视",
 			"configType":"MacCMS",
 			"encrypted":true,
 			"extensions":"undetermined",
@@ -58,7 +58,7 @@
 			"searchUrl":"jpszlpG1Fx9CmLvflawflawfkKYfMPGgMLEAFbEcl39hla9PjKsZFQNgN38/MKG9NowzMKZd6bmYJLeuNKnxMPVLkQ6YTr=="
 		},
 		{
-			"configName":"麒麟CJ",
+			"configName":"多米TT",
 			"configType":"MacCMS",
 			"encrypted":true,
 			"extensions":"undetermined",
@@ -70,7 +70,7 @@
 			"usable":true
 		},
 		{
-			"configName":"百搜CJ",
+			"configName":"天天看剧",
 			"configType":"MacCMS",
 			"encrypted":true,
 			"extensions":"undetermined",
@@ -82,7 +82,7 @@
 			"usable":true
 		},
 		{
-			"configName":"优全CJ",
+			"configName":"悦府",
 			"configType":"MacCMS",
 			"encrypted":true,
 			"matchSource":"anySource",
@@ -91,7 +91,7 @@
 			"usable":true
 		},
 		{
-			"configName":"厂长",
+			"configName":"爱情海",
 			"configType":"WebPage",
 			"encrypted":true,
 			"itemNameRegex":"JoiUjp6ZNXzWjpszlpG1Fx9QmQlfMQAylpDfMP9eFQNTloqVOt8f7WScmo0d5XRcFWc/7uhgMuR=",
@@ -104,7 +104,7 @@
 			"searchUrlRegex":"JoiUjp6ZNXzW73RB7t5UmonxNPwzJt6TMaqVkadWJWD8jK0b5oHdMLHyJt6zjpweMWEdMLAS5WEylaG95WRB5WEVkpr95WRB5WEYMLsVFK9xjKmAkandJt5f7W5+"
 		},
 		{
-			"configName":"解析测试",
+			"configName":"蘑菇解析",
 			"configType":"MacCMS",
 			"encrypted":true,
 			"extensions":"undetermined",
@@ -116,18 +116,7 @@
 			"usable":true
 		},
 		{
-			"configName":"1080影视",
-			"configType":"WebPage",
-			"encrypted":true,
-			"itemNameRegex":"JoiUjp6ZNXzWFQNgNpEdMLYgFWcg5WEzjLsdNuzW73RBJxYWJXqylonfJWRBJ39ylonfJXhgMuR=",
-			"itemUrlRegex":"JoiUjp6ZNXzW739PkPshkonSFxRBJx8A5WEzjLsdNuzWFWcWJXqylonfJWRBJ39ylonfJXhgMuR=",
-			"searchNameRegex":"JoUyJXqV5oVxNKM95W9PkPsYNLsVjKhgGtRBFx5UmoZzkov95WUf7X8A5XRf7XhgMuR8FPUyJU==",
-			"searchUrl":"jpszl4cgFQmQmxRqG4UhjPnfFaHXFQNgNpHZML6Xj38eFtzeFtzeFtzeFtzeFy9QN402vPwVlaHcwP9xNpzalQwWkKZzJr==",
-			"searchUrlRegex":"JoUyJXqV5oVxNKM95WUgma9YNowzMKZdFyif7X8g7t5UmoZzkov95WRB5XRf7XhgMuR8FPUyJU==",
-			"usable":true
-		},
-		{
-			"configName":"极品",
+			"configName":"极影",
 			"configType":"WebPage",
 			"encrypted":true,
 			"extensions":" m3u8",
