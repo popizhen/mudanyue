@@ -4,24 +4,24 @@
 	"author":"不念春风不念雨",
 	"contact":"微信群🦂 没事虾哔哔🦂",
 	"message":"群内使用，不要外传",
-	"editable":false,
+	"editable":true,
 	"searchConfig":[
 		{
-			"configName":"酷@客",
+			"configName":"酷客",
 			"configType":"WebPage",
 			"extensions":"unknown",
-			"itemNameRegex":"<a href=\"/play/\\d*-\\d-\\d*\\.html\" target=\"_self\" title=\".*\">(.*?)</a>",
-			"itemRangeRegex":"<div class=\"tab-pane fade in active clearfix\" id=\"down1\">([\\w\\W]*?)</div>",
+			"itemNameRegex":"<li><a href=\"/play/\\d*-0-\\d*\\.html\" target=\"_self\" title=\".*\">(.*?)</a></li>",
 			"itemUrl":"{SearchUrlOrId}&Header={\"User-Agent\":\"{WebViewUserAgent}\"}",
-			"itemUrlRegex":"<a href=\"(/play/\\d*-\\d-\\d*.html)\" target=\"_self\" title=\".*\">.*</a>",
-	        "realUrl":"{ItemUrlOrId}?PostBody={\"searchword\":\"{SearchWordNoEncryption}\"}",
+			"itemUrlRegex":"<li><a href=\"(/play/\\d*-0-\\d*\\.html)\" target=\"_self\" title=\".*\">.*</a></li>",
+			"realUrl":"{ItemUrlOrId}?PostBody={\"searchword\":\"{SearchWordNoEncryption}\"}",
 			"searchNameRegex":"<a class=\"v-thumb stui-vodlist__thumb lazyload\" data-original=\".*\" href=\".*\" title=\"(.*?)\"",
 			"searchPictureRegex":"<a class=\"v-thumb stui-vodlist__thumb lazyload\" data-original=\"(.*?)\" href=\".*\" title=\".*\"",
 			"searchStateRegex":"<span class=\"pic-text text-right\">(.*?)</span>",
 			"searchTypeRegex":"",
 			"searchUrl":"POST:http://n5m5.com/search.php?PostBody={\"searchword\":\"{SearchWordNoEncryption}\"}",
-			"searchUrlRegex":"<a class=\"v-thumb stui-vodlist__thumb lazyload\" data-original=\".*\" href=\"(.*?)\" title=\".*\"",
-			"searchYearRegex":""
+			"searchUrlRegex":"<a class=\"btn btn-min btn-primary\" href=\"(/play/\\d*-\\d*-\\d*.html)\">立即播放</a>",
+			"searchYearRegex":"",
+			"sniffTargetRegex":".*\\.m3u8"
 		},
 		{
 			"configName":"77影视CJ",
