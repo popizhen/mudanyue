@@ -7,7 +7,7 @@
 	"editable":true,
 	"searchConfig":[
 		{
-			"configName":"酷客",
+			"configName":"酷@客",
 			"configType":"WebPage",
 			"extensions":"unknown",
 			"itemNameRegex":"<li><a href=\"/play/\\d*-0-\\d*\\.html\" target=\"_self\" title=\".*\">(.*?)</a></li>",
