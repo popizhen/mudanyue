@@ -7,13 +7,14 @@
 	"editable":true,
 	"searchConfig":[
 		{
-			"configName":"酷客",
+			"configName":"酷@客",
 			"configType":"WebPage",
 			"extensions":"unknown",
 			"itemNameRegex":"<a href=\"/play/\\d*-\\d-\\d*\\.html\" target=\"_self\" title=\".*\">(.*?)</a>",
 			"itemRangeRegex":"<div class=\"tab-pane fade in active clearfix\" id=\"down1\">([\\w\\W]*?)</div>",
 			"itemUrl":"{SearchUrlOrId}&Header={\"User-Agent\":\"{WebViewUserAgent}\"}",
 			"itemUrlRegex":"<a href=\"(/play/\\d*-\\d-\\d*.html)\" target=\"_self\" title=\".*\">.*</a>",
+	        "realUrl":"{ItemUrlOrId}?PostBody={\"searchword\":\"{SearchWordNoEncryption}\"}",
 			"searchNameRegex":"<a class=\"v-thumb stui-vodlist__thumb lazyload\" data-original=\".*\" href=\".*\" title=\"(.*?)\"",
 			"searchPictureRegex":"<a class=\"v-thumb stui-vodlist__thumb lazyload\" data-original=\"(.*?)\" href=\".*\" title=\".*\"",
 			"searchStateRegex":"<span class=\"pic-text text-right\">(.*?)</span>",
