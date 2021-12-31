@@ -48,26 +48,6 @@
 			"searchUrl":"jpszlpG1Fx9QmQlfkKeSlxSeNt9VloYfloVhFPnhl39yNKnxMPU/lol9GtNzNLVzJLeuNKnxMPVLkQ6YTr==",
 			"searchUrlRegex":"5bNgNn9AN35173RBJxYd"
 		},
-		{
-			"configName":"大熊TVAPP",
-			"configType":"WebPage",
-			"encrypted":true,
-			"extensions":"unknown",
-			"itemNameRegex":"wKSAMP9YNtSYNKHgNovc7neO5ZzBJxZl63RBJ0dX5Z02GLzA",
-			"itemRangeRegex":"5bNgNn90laqTmPZzjn9hkonSNL5WIZqk7nelm0qLLtc/7wqm",
-			"itemRangeSplit":"\\},\\{",
-			"itemRangeSplitPick":"qq@youku@qiyi@mgtv@bilibili@dbm3u8@kbm3u8@555m3u8@bjm3u8",
-			"itemUrl":"jpszlpG1Fx9YOpZyGyG0HtSXkPzgkK9bMKZTMLEAFbEcl39VlpDgmaZYNK9TNowzMKZdJPZYJLeuNKnxMPVwlaqJlYZYTr==",
-			"itemUrlRegex":"wKSAMP9YNtSYNKHgNovcK0RWLtc/L3rcFWc/7wdX5Z02GLzA",
-			"realExtensionsRegex":"5bsSlovWIZqyJx5cFWc/7t5d",
-			"realUrl":"jpszl4cgFPeZkowBjKwRjtSVjLsZNtSXMx9VloYgJPeZOu0sHKwJOXlxMwHirKNjNP6jjLramL6dJLe6mowewL6duQ66Npz=",
-			"realUrlRegex":"5bwxk351LpG/5WUf7X8A5U==",
-			"searchNameRegex":"wKSAMP9YNtSYNKHgNovc5bNgNn9fMK0Z5XcW73RBJxYWF3Y=",
-			"searchPictureRegex":"5bNgNn9hjKGWIW5cFWc/7t5d",
-			"searchStateRegex":"wKSAMP9YNtSYNKHgNovc5bNgNn9xNK0Vlaey5XcW73RBJxYWF3Y=",
-			"searchUrl":"jpszlpG1Fx9YOpZyGyG0HtSXkPzgkK9bMKZTMLEAFbEcl39VlpDglPwVlaHcJQEbJuiamowRm402vPwVlaHcwP9xNpz=",
-			"searchUrlRegex":"5bNgNn9AN35173RBJxYd"
-		},
 {
 	"configName":"嘀哩嘀哩APP",
 	"configType":"WebPage",
@@ -201,7 +181,6 @@
 	"searchStateRegex":"wKSAMP9YNtSYNKHgNovc5bNgNn9xNK0Vlaey5XcW73RBJxYWF3Y=",
 	"searchUrl":"jpszlpG1Fx9QmQlfkKH1NpZQFaHgkt9VloYfloVhFPnhl39yNKnxMPU/lol9GtNzNLVzJLeuNKnxMPVLkQ6YTr==",
 	"searchUrlRegex":"5bNgNn9AN35173RBJxYd",
-	"usable":false,
 	"encrypted":true
 },
 		{
