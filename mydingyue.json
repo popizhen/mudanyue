@@ -24,6 +24,22 @@
 			"sniffTargetRegex":".*\\.m3u8"
 		},
 		{
+			"configName":"31看",
+			"configType":"WebPage",
+			"extensions":"unknown",
+			"itemNameRegex":"<li class=\".*\"><a class=\"btn btn-default\" href=\"/play/\\d*-\\d-\\d*\\.html\">(.*?)</a></li>",
+			"itemUrlRegex":"<li class=\".*\"><a class=\"btn btn-default\" href=\"(/play/\\d*-\\d-\\d*\\.html)\">.*</a></li>",
+			"searchNameRegex":"<a class=\".*\" href=\".*\" title=\"(.*?)\" data-original=\".*\"",
+			"searchPictureRegex":"<a class=\".*\" href=\".*\" title=\".*\" data-original=\"(.*?)\"",
+			"searchStateRegex":"<span class=\"pic-text text-right\">(.*?)</span>",
+			"searchTypeRegex":"",
+			"searchUrl":"http://www.31kan.com/vodsearch/-------------.html?wd={SearchWord}&submit=",
+			"searchUrlRegex":"<a class=\".*\" href=\"(.*?)\" title=\".*\" data-original=\".*\"",
+			"searchYearRegex":"",
+			"sniffTargetExtensions":"m3u8",
+			"sniffTargetRegex":".*/m3u8.*\\.m3u8"
+		},	
+		{
 			"configName":"77影视CJ",
 			"configType":"MacCMS",
 			"matchSource":"anySource",
