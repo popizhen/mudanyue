@@ -19,6 +19,22 @@
 	"usable":true
 },
 {
+	"configName":"31看",
+	"extensions":"unknown",
+	"configType":"WebPage",
+	"searchUrl":"http://www.31kan.com/vodsearch/-------------.html?wd={SearchWord}&submit=",
+	"searchNameRegex":"<a class=\".*\" href=\".*\" title=\"(.*?)\" data-original=\".*\"",
+	"searchUrlRegex":"<a class=\".*\" href=\"(.*?)\" title=\".*\" data-original=\".*\"",
+	"searchPictureRegex":"<a class=\".*\" href=\".*\" title=\".*\" data-original=\"(.*?)\"",
+	"searchTypeRegex":"",
+	"searchYearRegex":"",
+	"searchStateRegex":"<span class=\"pic-text text-right\">(.*?)</span>",
+	"itemNameRegex":"<li class=\".*\"><a class=\"btn btn-default\" href=\"/play/\\d*-\\d-\\d*\\.html\">(.*?)</a></li>",
+	"itemUrlRegex":"<li class=\".*\"><a class=\"btn btn-default\" href=\"(/play/\\d*-\\d-\\d*\\.html)\">.*</a></li>",
+	"sniffTargetExtensions":"m3u8",
+	"sniffTargetRegex":".*/m3u8.*\\.m3u8"
+},
+{
 	"configName":"星空TV",
 	"configType":"WebPage",
 	"itemNameRegex":"<a href=\"/okplay/\\d*\\-1-\\d*\\.html\" title=\".*\"><span>(.*?)</span></a>",
