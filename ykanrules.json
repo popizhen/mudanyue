@@ -189,6 +189,22 @@
 			"usable":true
 		},
 		{
+			"configName":"31看",
+			"configType":"WebPage",
+			"extensions":"unknown",
+			"itemNameRegex":"<li class=\".*\"><a class=\"btn btn-default\" href=\"/play/\\d*-\\d-\\d*\\.html\">(.*?)</a></li>",
+			"itemUrlRegex":"<li class=\".*\"><a class=\"btn btn-default\" href=\"(/play/\\d*-\\d-\\d*\\.html)\">.*</a></li>",
+			"searchNameRegex":"<a class=\".*\" href=\".*\" title=\"(.*?)\" data-original=\".*\"",
+			"searchPictureRegex":"<a class=\".*\" href=\".*\" title=\".*\" data-original=\"(.*?)\"",
+			"searchStateRegex":"<span class=\"pic-text text-right\">(.*?)</span>",
+			"searchTypeRegex":"",
+			"searchUrl":"http://www.31kan.com/vodsearch/-------------.html?wd={SearchWord}&submit=",
+			"searchUrlRegex":"<a class=\".*\" href=\"(.*?)\" title=\".*\" data-original=\".*\"",
+			"searchYearRegex":"",
+			"sniffTargetExtensions":"m3u8",
+			"sniffTargetRegex":".*/m3u8.*\\.m3u8"
+		},	
+		{
 			"configName":"Auete(易搜)",
 			"configType":"WebPage",
 			"itemNameRegex":" <li id=\".*\"><a class=\"btn btn-orange\" title=\".*\" href=\".*\" target=\"_self\">(.*?)</a></li>",
