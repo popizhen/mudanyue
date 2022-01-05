@@ -11,12 +11,15 @@
 			"itemRangeSplitPick":"duoduozy",
 			"itemUrl":"jpszlpG1Fx9QmQlfkKeSlxSeNt9VloYfloVhFPnhl39PjKsZk09YNLsVjKh/jKr9O0HZML6Xjnwxki9xtKs9",
 			"itemUrlRegex":"wKSAMP9YNtSYNKHgNovcK0RWLtc/L3rcFWc/7wdX5Z02GLzA",
-			"realUrl":"jpszlpG1Fx9hkonSNL5fNpwgNpwgObYfMP9eFPsYloqVOt8/mL6dJLe6mowewL6duQ66Npz=",
+			"realExtensionsRegex":"5bsSlovWIZqyJx5cFWc/7t5d",
+			"realUrl":"jpszlpG1Fx9BjKwRjtSVlQsPFbNAl39ckP0ZFPnhju9zOLEZJLZy6bwAN4zq6aeZOu0alawZ6bwxk402tLsZkwwxki9xtKs9",
+			"realUrlRegex":"5bwxk351LpG/5WUf7X8A5U==",
 			"searchNameRegex":"wKSAMP9YNtSYNKHgNovc5bNgNn9fMK0Z5XcW73RBJxYWF3Y=",
 			"searchPictureRegex":"5bNgNn9hjKGWIW5cFWc/7t5d",
 			"searchStateRegex":"wKSAMP9YNtSYNKHgNovc5bNgNn9xNK0Vlaey5XcW73RBJxYWF3Y=",
 			"searchUrl":"jpszlpG1Fx9QmQlfkKeSlxSeNt9VloYfloVhFPnhl39yNKnxMPU/lol9GtNzNLVzJLeuNKnxMPVLkQ6YTr==",
-			"searchUrlRegex":"5bNgNn9AN35173RBJxYd"
+			"searchUrlRegex":"5bNgNn9AN35173RBJxYd",
+			"usable":true
 		},
 		{
 			"configName":"DiliAPP",
