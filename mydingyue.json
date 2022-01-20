@@ -219,7 +219,7 @@
 			"usable":true
 		},
 		{
-			"configName":"看剧吧APP采集仿写",
+			"configName":"看剧吧",
 			"configType":"MacCMS",
 			"encrypted":true,
 			"extensions":"m3u8",
