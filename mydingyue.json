@@ -4,7 +4,7 @@
 	"author":"春风",
 	"contact":"微信群🦂 没事虾哔哔🦂",
 	"message":"内部使用不要外传",
-	"editable":true,
+	"editable":false,
 	"searchConfig":[
 		{
 			"configName":"酷客",
@@ -31,28 +31,13 @@
 			"encrypted":true,
 			"extensions":"unknown",
 			"itemNameRegex":"JoiUjp6ZNXzWFWcW5oHdMLHyJt5f7W5UmoZzkov95WRB5XR8lQEVkXRcFWc/7uhglQEVkXR=",
+			"itemRangeRegex":"JosAmWEXkonylyzWlPHxkPqdFKHgkbsZkbrWJWVkLpmlw0zBJxY8FPsAmXRULoSllxd8FPsAmXRULoSllxd8FPsAmXR=",
 			"itemUrlRegex":"JoiUjp6ZNXzW73RBJxYW5oHdMLHyJt5f7W5UmoZzkov95WRB5XR8lQEVkXRf7XhglQEVkXR=",
 			"searchNameRegex":"JoiUMPqVlQG95bNANowgFLHZlaZVk35Ujp6ZNXzWFWcW5psAmoqZJt5cFWc/7t5+FWc8FPi+",
 			"searchPictureRegex":"NonzMt0ylaG95WUf7X8A5U==",
 			"searchStateRegex":"JoiUMPqVlQG95bNANowgFLHZlaZVk35Ujp6ZNXzWFWcW5psAmoqZJt5f7W5+73RBJxY8FPi+",
 			"searchUrl":"jpszlpG1Fx9QmQlfGuDRGo0AFaHgkt9PLQHZML6Xj38eFtzeFtzeFtzeFtzeFaVzkKh/mPr9O0HZML6Xjnmglas9",
 			"searchUrlRegex":"JoiUjp6ZNXzW73RBJxYW5psAmoqZJt5f7W5+JoYUMPqVlQG95aZXkPReloqVOt5+J39AJXhgMuR=",
-			"usable":true
-		},
-		{
-			"configName":"云播",
-			"configType":"WebPage",
-			"encrypted":true,
-			"extensions":"unknown",
-			"itemNameRegex":"JoqA5oHdMLHyJt5f7W5+JoiUMPqVlQG95a6zkWEWmoReNowaMLwdm35Ujp6ZNXzWFQNgN39hkonSFPZYF0qY7W9yjKrgLorBFPSAN39lN3AlFaVzkKhWJWUf7X8AJ39VJXhgkoY+",
-			"itemRangeRegex":"Jpwd5oHdMLHyJt6eOLwAFKHgkbsZkbsTLPqAlQrUlPHxkPqdManx5pHglbrekoZym3EXkowVlaNAO35UlQsSkov95WRB5XRcK0qQLnmm7X8AJ390k4R=",
-			"itemUrl":"jpszl4cgFQmQmxSzmbZWG45fMP9eFQNgN39YNLsVjKhgjKrgO0HZML6Xjnwxki9xtKs9FaVzkKh=",
-			"itemUrlRegex":"JoqA5oHdMLHyJt5f7W5+JoiUMPqVlQG95a6zkWEWmoReNowaMLwdm35Ujp6ZNXzW739PkPrgloqVOt9AN39lN3cglPZYF0qY7W9fjKrgLorBL3Scmo0d7t5+FWc8FPi+J39djuR=",
-			"searchNameRegex":"5aSVkKvWIW5cFWc/7t5=",
-			"searchPictureRegex":"5bEAMx515WUf7X8A5U==",
-			"searchStateRegex":"",
-			"searchUrl":"jpszl4cgFQmQmxSzmbZWG45fMP9eFPZfNowRFbEcl39VjanRFQH0NPmZlQr/kKZYJuiamPr9O0HZML6Xjnmglas9",
-			"searchUrlRegex":"5aZY5XccFWc/7th=",
 			"usable":true
 		},
 		{
@@ -128,9 +113,9 @@
 			"configType":"WebPage",
 			"encrypted":true,
 			"extensions":"unknown",
-			"itemNameRegex":"JoiUjp6ZNXzWFQNgNpEdMLYgLorBFwqY7W0lN3cg5WEzjLsdNuzWFWcWJXqylonfJWUf7X8AJ39ylonfJXhgMuR=",
+			"itemNameRegex":"JoiUjp6ZNXzWFQNgNpEdMLYgLorBFwqY7W0lN3AlFaVzkKhW5psAmoqZJt5f7W5+JpHhMKR+73RBJxY8FQHhMKR+J39VJU==",
 			"itemRangeRegex":"JosAmWEXkonylyzWlPHxkPqdFKHgkbsZkbrWJWVkLpmlw0zBJxY8FPsAmXRc645A",
-			"itemUrlRegex":"JoiUjp6ZNXzW739PkPshkonSF0qY7W0lN3ceLorBFxYW5psAmoqZJt5f7W5+JpHhMKR+FWc8FQHhMKR+J39VJU==",
+			"itemUrlRegex":"JoiUjp6ZNXzW739PkPshkonSF0qY7W0lN3ceLorBL3Scmo0d7t5UmoZzkov95WRB5XR8lQEVkXRf7XhglQEVkXR8FPi+",
 			"searchNameRegex":"JoiUMPqVlQG95bNANowgFLHZlaZVk35Ujp6ZNXzWFWcW5psAmoqZJt5cFWc/7t5+FWc8FPi+",
 			"searchPictureRegex":"NonzMt0ylaG95WUf7X8A5U==",
 			"searchStateRegex":"JoiUMPqVlQG95bNANowgFLHZlaZVk35Ujp6ZNXzWFWcW5psAmoqZJt5f7W5+73RBJxY8FPi+",
@@ -170,10 +155,7 @@
 			"searchTypeRegex":"",
 			"searchUrl":"jpszl4cgFQmQmxRyGKeVkWSXkPzgma9YlPwVlaHcFxzeFtzeFtzeFtzeFtzfjpsek49QN402vPwVlaHcwP9xNpzalQwWkKZzJr==",
 			"searchUrlRegex":"JoiUMPqVlQG95WRB5WEclawaJt5cFWc/7t5UmoZzkov95WRB5WEYMLsVFK9xjKmAkandJt5f7W5=",
-			"searchYearRegex":"",
-			"sniffTargetExtensions":"m3u8",
-			"sniffTargetRegex":"FWcgkuH0I3RBL3SeGQvR",
-			"usable":true
+			"searchYearRegex":""
 		},
 		{
 			"configName":"嘀哩嘀哩APP",
@@ -219,7 +201,7 @@
 			"usable":true
 		},
 		{
-			"configName":"看剧吧",
+			"configName":"看剧吧APP采集仿写",
 			"configType":"MacCMS",
 			"encrypted":true,
 			"extensions":"m3u8",
