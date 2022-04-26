@@ -26,7 +26,7 @@
     "cateVodNode": "//a[contains(@class,'stui-vodlist__thumb')]",
     "cateVodName": "/@title",
     "cateVodId": "/@href",
-    "cateVodIdR": "/xvideo/(\\w+).html",
+    "cateVodIdR": "/xvideo/(\\w+)/",
     "cateVodImg": "/@data-original",
     "cateVodImgR": "",
     "cateVodMark": "/span[@class='pic-text text-right']/text()",
@@ -63,7 +63,7 @@
     "scVodNode": "//a[contains(@class,'stui-vodlist__thumb')]",
     "scVodName": "/@title",
     "scVodId": "/@href",
-    "scVodIdR": "/xvideo/(\\w+).html",
+    "scVodIdR": "/xvideo/(\\w+)/",
     "scVodImg": "/@data-original",
     "scVodMark": "/span[@class='pic-text text-right']/text()",
    "filter":{
