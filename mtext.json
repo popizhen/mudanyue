@@ -1,6 +1,21 @@
 {"sites":[
 
 
+
+
+
+
+
+    {
+      "key": "csp_xpath_蓝莓",
+      "name": "蓝莓(XP)",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://popizhen.github.io/mudanyue/蓝莓XP.txt"
+    }, 
     {
       "key": "csp_xpath_农民豆角",
       "name": "农民豆角(XP)",
