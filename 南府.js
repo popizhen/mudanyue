@@ -44,7 +44,7 @@
     "dtUrlName": "/span/text()",
     "dtUrlNameR": "",
     "playUrl": "https://www.nfuxs.com/index.php/vod/play/id/{playUrl}.html",
-    "playUa": "",
+    "playUa": "Mozilla/5.0 (Linux; Android 10; LYA-AL00; HMSCore 6.4.0.312; GMSCore 20.15.16) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 HuaweiBrowser/11.0.4.300 Mobile Safari/537.36",
     "searchUrl": "https://www.nfuxs.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
     "scVodNode": "json:list",
     "scVodName": "name",
