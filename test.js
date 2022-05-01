@@ -54,7 +54,7 @@
     "dtUrlNameR": "",
     "playUrl": "http://1090ys2.com/play/{playUrl}.html",
     "playUa": "",
-    "searchUrl": "https://www.newxiaopin.com/plus/search.php?q={wd}&kwtype=0&searchtype=titlekeyword",
+    "searchUrl": "https://www.newxiaopin.com/plus/search.php?q={wdGBK}&kwtype=0&searchtype=titlekeyword",
     "scVodNode": "//li[@class='multi auth1']",
     "scVodName": "/@title",
     "scVodId": "/div[@class='cateimg']/a/@href",
