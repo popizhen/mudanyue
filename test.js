@@ -65,5 +65,4 @@
     "scVodImg": "//img/@data-src",
     "scVodImgR": "\\S*(http\\S+)",
     "scVodMark": "//a[@class='video-serial']/text()"
-
 }
