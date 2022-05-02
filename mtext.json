@@ -4,8 +4,8 @@
 // "spider":"https://codeberg.org/fxq12345/M218829/raw/branch/main/jar/custom_spider424.jar",
  
 //"spider":"https://pglblb.coding.net/p/maotv/d/jar/git/raw/master/custom_rcd-0424.jar?download=true",
-
-"spider":"https://popizhen.github.io/mudanyue/gdapecCO_jar_mxpm_20220408.jar",
+"spider":"https://popizhen.github.io/mudanyue/custom_spider424.jar",
+//"spider":"https://popizhen.github.io/mudanyue/gdapecCO_jar_mxpm_20220408.jar",
   "sites": [
 
     {
@@ -68,7 +68,16 @@
     }, 
     
     
-    
+    {
+      "key": "csp_xpath_阿里",
+      "name": "阿里(XP)",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://popizhen.github.io/mudanyue/test.js"
+    },     
          
     {
       "key": "csp_xpath_蓝光",
@@ -81,16 +90,7 @@
       "ext": "https://popizhen.github.io/mudanyue/test.js"
     },    
     
-    {
-      "key": "csp_xpath_阿里",
-      "name": "阿里(XP)",
-      "type": 3,
-      "api": "csp_XPath",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "https://popizhen.github.io/mudanyue/test.js"
-    },     
+
        
     
     
