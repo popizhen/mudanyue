@@ -66,7 +66,7 @@
     "scVodIdR": "/voddetail/(\\w+).html",
     "scVodImg": "//img/@data-src",
     "scVodImgR": "\\S*(http\\S+)",
-    "scVodMark": "//a[@class='video-serial']/text()"
+    "scVodMark": "//a[@class='video-serial']/text()",
 "filter":{
 
 "1":[{
