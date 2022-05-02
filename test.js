@@ -65,7 +65,7 @@
     "scVodIdR": "/voddetail/(\\w+).html",
     "scVodImg": "//img/@data-src",
     "scVodImgR": "\\S*(http\\S+)",
-    "scVodMark": "//a[@class='video-serial']/text()"
+    "scVodMark": "//a[@class='video-serial']/text()",
    "filter":{
 "1": [
 {"name":"类型","key":"class","value":[{"n":"全部","v":"1"},{"n":"4K","v":"4K"},{"n":"蓝光","v":"蓝光"},{"n":"院线","v":"院线"},{"n":"剧情","v":"剧情"},{"n":"喜剧","v":"喜剧"},{"n":"动作","v":"动作"},{"n":"爱情","v":"爱情"},{"n":"惊悚","v":"惊悚"},{"n":"犯罪","v":"犯罪"},{"n":"悬疑","v":"悬疑"},{"n":"战争","v":"战争"},{"n":"科幻","v":"科幻"},{"n":"恐怖","v":"恐怖"},{"n":"动画","v":"动画"}]},
