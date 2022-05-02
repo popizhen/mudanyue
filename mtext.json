@@ -24,7 +24,7 @@
       "key": "csp_xpath_阿里",
       "name": "阿里(XP)",
       "type": 3,
-      "api": "csp_XPath",
+      "api": "csp_XPathMacFilter",
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
