@@ -22,7 +22,7 @@
     },
     {
       "key": "csp_xpath_阿里",
-      "name": "测试(XP)",
+      "name": "测试ing(XP)",
       "type": 3,
       "api": "csp_XPathMacFilter",
       "searchable": 1,
