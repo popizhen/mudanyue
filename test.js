@@ -11,7 +11,8 @@
         "电影": "1",
         "连续剧": "2",
         "动漫": "4",
-        "综艺": "3"
+        "综艺": "3",
+        "直播": "28"
     },
     "homeVodNode": "//div[@class='module-item']",
     "homeVodName": "//div[@class='module-item-pic']/a/@title",
