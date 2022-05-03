@@ -52,7 +52,7 @@
     "dtUrlIdR": "\\S+\\('(.*)'\\);",
     "dtUrlName": "/text()",
     "dtUrlNameR": "",
-    "playUrl": "https://x.yizhimianfei.cn/aaaaa/{playUrl}.m3u8",
+    "playUrl": "{playUrl}",
     "playUa": "",
     "searchUrl": "https://www.mianfeikk.com/so/{wd}.html",
     "scVodNode": "//a[@class='thumbnail']",
