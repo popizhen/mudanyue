@@ -1,64 +1,337 @@
 {
     "author": "春风",
     "ua": "",
-    "homeUrl": "https://www.mianfeikk.com/",
+    "homeUrl": "https://www.kkkkyy.com/",
     "dcVipFlag": "true",
     "dcPlayUrl": "true",
     "cateManual": {
-        "电影": "dianying",
-        "连续剧": "dianshiju",
-        "动漫": "dongman",
-        "综艺": "zongyi"
+        "电影": "1",
+        "连续剧": "2",
+        "动漫": "4",
+        "综艺": "3",
+        "国产剧": "12",
+        "香港剧": "13",
+        "韩国剧": "14",
+        "欧美剧": "15",
+        "台湾剧": "16",
+        "日本剧": "17",
+        "海外剧": "18",
+        "动作片": "5",
+        "喜剧片": "6",
+        "爱情片": "7",
+        "科幻片": "8",
+        "恐怖片": "9",
+        "剧情片": "10",
+        "战争片": "11"
     },
-    "homeVodNode": "//a[@class='thumbnail']",
-    "homeVodName": "/img/@alt",
+    "homeVodNode": "//div[@class='row-l']//ul[@class='ul clearfix']/li/a",
+    "homeVodName": "/@title",
     "homeVodId": "/@href",
     "homeVodIdR": "/(\\S+).html",
-    "homeVodImg": "/img/@src",
+    "homeVodImg": "//img/@data-original",
     "homeVodImgR": "",
-    "homeVodMark": "//span/text()",
-    "cateUrl": "https://www.mianfeikk.com/{cateId}/---{catePg}-.html",
-    "cateVodNode": "//a[@class='thumbnail']",
-    "cateVodName": "//img/@alt",
+    "homeVodMark": "/div[@class='img']//p[@class='name']/text()",
+    "cateUrl": "https://www.kkkkyy.com/page_{cateId}-pg-{catePg}.html",
+    "cateVodNode": "//div[@class='row-l']//ul[@class='ul clearfix']/li/a",
+    "cateVodName": "/@title",
     "cateVodId": "/@href",
     "cateVodIdR": "/(\\S+).html",
-    "cateVodImg": "/img/@src",
+    "cateVodImg": "//img/@data-original",
     "cateVodImgR": "",
-    "cateVodMark": "/span/text()",
-    "dtUrl": "https://www.mianfeikk.com/{vid}.html",
+    "cateVodMark": "/div[@class='img']//p[@class='name']/text()",
+    "dtUrl": "https://www.kkkkyy.com/{vid}.html",
     "dtNode": "//body",
-    "dtName": "//h1[@class='product-title']/text()",
+    "dtName": "//h1/text()",
     "dtNameR": "",
-    "dtImg": "//header[@class='product-header']/img/@src",
+    "dtImg": "//div[@class='img']/img/@src",
     "dtImgR": "",
-    "dtCate": "//div[contains(text(), '类型')]/child::span/a/text()",
+    "dtCate": "//dt[contains(text(), '分类')]/following-sibling::/dd/a/text()",
     "dtCateR": "",
-    "dtYear": "//h1[@class='product-title']/span/text()",
-    "dtYearR": "(\\S+)",
-    "dtArea": "//div[contains(text(), '地区')]/child::span/a/text()",
+    "dtYear": "//dt[contains(text(), '上映')]/following-sibling::/dd/text()",
+    "dtYearR": "",
+    "dtArea": "//dt[contains(text(), '地区')]/following-sibling::/dd/text()",
     "dtAreaR": "",
-    "dtDirector": "//div[contains(text(), '导演')]/child::span/a/text()",
+    "dtDirector": "//dt[contains(text(), '导演')]/following-sibling::/dd/a/text()",
     "dtDirectorR": "",
-    "dtActor": "//div[contains(text(), '主演')]/child::span/a/text()",
+    "dtActor": "//dt[contains(text(), '主演')]/following-sibling::/dd/a/text()",
     "dtActorR": "",
-    "dtDesc": "//div[contains(text(), '剧情')]/child::span/text()",
+    "dtDesc": "//div[@class='cdes1']/text()",
     "dtDescR": "",
-    "dtFromNode": "//dl/dt",
+    "dtFromNode": "//div[@class='stit clearfix']/h3",
     "dtFromName": "/text()",
     "dtFromNameR": "",
-    "dtUrlNode": "//div[@class='playlist clearfix']/ul",
+    "dtUrlNode": "//div[@class='stab_list']/ul",
     "dtUrlSubNode": "/li/a",
-    "dtUrlId": "/@onclick",
-    "dtUrlIdR": "\\S+\\('(.*)'\\);",
+    "dtUrlId": "@href",
+    "dtUrlIdR": "/(\\S+).html",
     "dtUrlName": "/text()",
     "dtUrlNameR": "",
-    "playUrl": "{playUrl}",
+    "playUrl": "https://www.kkkkyy.com/{playUrl}.html",
     "playUa": "",
-    "searchUrl": "https://www.mianfeikk.com/so/{wd}.html",
-    "scVodNode": "//a[@class='thumbnail']",
-    "scVodName": "/img/@alt",
-    "scVodId": "/@href",
+    "searchUrl": "https://www.kkkkyy.com/vod-search-wd?wd={wd}",
+    "scVodNode": "//ul[@class='sul clearfix']/li",
+    "scVodName": "/a/@title",
+    "scVodId": "/a/@href",
     "scVodIdR": "/(\\S+).html",
-    "scVodImg": "/@data-original",
-    "scVodMark": "//span/text()"
+    "scVodImg": "//img/@data-original",
+    "scVodMark": "//div[@class='stext']/p[2]/span/text()",
+"filter":{
+ "37":[{
+ "key":"cateId",
+ "name":"分类",
+ "value":[
+{"n":"全部","v":""},
+{"n":"蓝光电影","v":"38"},
+{"n":"蓝光电视剧","v":"39"},
+{"n":"蓝光综艺","v":"40"},
+{"n":"蓝光动漫","v":"41"},
+{"n":" B站番剧","v":"46"},
+{"n":"番剧国创","v":"47"}
+]
+},
+{
+"key":"area",
+"name":"地区",
+"value":[
+{"n":"全部","v":""},
+{"n":"大陆","v":"大陆"},
+{"n":"香港","v":"香港"},
+{"n":"台湾","v":"台湾"},
+{"n":"美国","v":"美国"},
+{"n":"法国","v":"法国"},
+{"n":"英国","v":"英国"},
+{"n":"日本","v":"日本"},
+{"n":"韩国","v":"韩国"}
+,{"n":"德国","v":"德国"},
+{"n":"泰国","v":"泰国"},
+{"n":"印度","v":"印度"},
+{"n":"意大利","v":"意大利"},
+{"n":"西班牙","v":"西班牙"},
+{"n":"加拿大","v":"加拿大"},
+{"n":"其他","v":"其他"}
+]
+},
+{
+"key":"year",
+"name":"年份",
+"value":[
+{"n":"全部","v":""},
+{"n":"2021","v":"2021"},
+{"n":"2020","v":"2020"},
+{"n":"2019","v":"2019"},
+{"n":"2018","v":"2018"},
+{"n":"2017","v":"2017"},
+{"n":"2016","v":"2016"},
+{"n":"2015","v":"2015"},
+{"n":"2014","v":"2014"},
+{"n":"2013","v":"2013"},
+{"n":"2012","v":"2012"},
+{"n":"2011","v":"2011"},
+{"n":"2010","v":"2010"}
+]
+}
+],
+"1":[{
+"key":"cateId",
+"name":"分类",
+"value":[
+{"n":"全部","v":""},
+{"n":"动作片","v":"6"},
+{"n":"喜剧片","v":"7"},
+{"n":"爱情片","v":"8"},
+{"n":"科幻片","v":"9"},
+{"n":"恐怖片","v":"10"},
+{"n":"剧情片","v":"11"},
+{"n":"战争片","v":"12"},
+{"n":"纪录片","v":"20"},
+{"n":"灾难片","v":"21"},
+{"n":"魔幻片","v":"22"},
+{"n":"青春片","v":"23"},
+{"n":"犯罪片","v":"24"},
+{"n":"悬疑片","v":"25"},
+{"n":"微电影","v":"26"},
+{"n":"音乐片","v":"27"},
+{"n":"伦理片","v":"28"},
+{"n":"B站电影","v":"29"}
+]
+},
+{"key":"area",
+"name":"地区",
+"value":[
+{"n":"全部","v":""},
+{"n":"大陆","v":"大陆"},
+{"n":"香港","v":"香港"},
+{"n":"台湾","v":"台湾"},
+{"n":"美国","v":"美国"},
+{"n":"法国","v":"法国"},
+{"n":"英国","v":"英国"},
+{"n":"日本","v":"日本"},
+{"n":"韩国","v":"韩国"},
+{"n":"德国","v":"德国"},
+{"n":"泰国","v":"泰国"},
+{"n":"印度","v":"印度"},
+{"n":"意大利","v":"意大利"},
+{"n":"西班牙","v":"西班牙"},
+{"n":"加拿大","v":"加拿大"},
+{"n":"其他","v":"其他"}
+]
+},
+{
+"key":"year",
+"name":"年份",
+"value":[
+{"n":"全部","v":""},
+{"n":"2021","v":"2021"},
+{"n":"2020","v":"2020"},
+{"n":"2019","v":"2019"},
+{"n":"2018","v":"2018"},
+{"n":"2017","v":"2017"},
+{"n":"2016","v":"2016"},
+{"n":"2015","v":"2015"},
+{"n":"2014","v":"2014"},
+{"n":"2013","v":"2013"},
+{"n":"2012","v":"2012"},
+{"n":"2011","v":"2011"},
+{"n":"2010","v":"2010"}
+]
+}
+],
+"2":[{
+"key":"cateId",
+"name":"分类",
+"value":[
+{"n":"全部","v":""},
+{"n":"国产剧","v":"13"},
+{"n":"港台剧","v":"14"},
+{"n":"日韩剧","v":"15"},
+{"n":"欧美剧","v":"16"},
+{"n":"B站剧集","v":"49"}
+]
+},
+{
+"key":"area",
+"name":"地区",
+"value":[
+{"n":"全部","v":""},
+{"n":"内地","v":"内地"},
+{"n":"韩国","v":"韩国"},
+{"n":"香港","v":"香港"},
+{"n":"台湾","v":"台湾"},
+{"n":"日本","v":"日本"},
+{"n":"美国","v":"美国"},
+{"n":"泰国","v":"泰国"},
+{"n":"英国","v":"英国"},
+{"n":"新加坡","v":"新加坡"},
+{"n":"其他","v":"其他"}
+]
+},
+{
+"key":"year",
+"name":"年份",
+"value":[
+{"n":"全部","v":""},
+{"n":"2021","v":"2021"},
+{"n":"2020","v":"2020"},
+{"n":"2019","v":"2019"},
+{"n":"2018","v":"2018"},
+{"n":"2017","v":"2017"},
+{"n":"2016","v":"2016"},
+{"n":"2015","v":"2015"},
+{"n":"2014","v":"2014"},
+{"n":"2013","v":"2013"},
+{"n":"2012","v":"2012"},
+{"n":"2011","v":"2011"},
+{"n":"2010","v":"2010"}
+]
+}
+],
+"3":[{
+"key":"cateId",
+"name":"分类",
+"value":[
+{"n":"全部","v":"3"}
+]
+},
+{
+"key":"area",
+"name":"地区",
+"value":[
+{"n":"全部","v":""},
+{"n":"内地","v":"内地"},
+{"n":"韩国","v":"韩国"},
+{"n":"香港","v":"香港"},
+{"n":"台湾","v":"台湾"},
+{"n":"日本","v":"日本"},
+{"n":"美国","v":"美国"},
+{"n":"泰国","v":"泰国"},
+{"n":"英国","v":"英国"},
+{"n":"新加坡","v":"新加坡"},
+{"n":"其他","v":"其他"}
+]
+},
+{
+"key":"year",
+"name":"年份",
+"value":[
+{"n":"全部","v":""},
+{"n":"2021","v":"2021"},
+{"n":"2020","v":"2020"},
+{"n":"2019","v":"2019"},
+{"n":"2018","v":"2018"},
+{"n":"2017","v":"2017"},
+{"n":"2016","v":"2016"},
+{"n":"2015","v":"2015"},
+{"n":"2014","v":"2014"},
+{"n":"2013","v":"2013"},
+{"n":"2012","v":"2012"},
+{"n":"2011","v":"2011"},
+{"n":"2010","v":"2010"}
+]
+}
+],
+"4":[{
+"key":"cateId",
+"name":"分类",
+"value":[
+{"n":"全部","v":"4"}
+]
+},
+{
+"key":"area",
+"name":"地区",
+"value":[
+{"n":"全部","v":""},
+{"n":"内地","v":"内地"},
+{"n":"韩国","v":"韩国"},
+{"n":"香港","v":"香港"},
+{"n":"台湾","v":"台湾"},
+{"n":"日本","v":"日本"},
+{"n":"美国","v":"美国"},
+{"n":"泰国","v":"泰国"},
+{"n":"英国","v":"英国"},
+{"n":"新加坡","v":"新加坡"},
+{"n":"其他","v":"其他"}
+]
+},
+{
+"key":"year",
+"name":"年份",
+"value":[
+{"n":"全部","v":""},
+{"n":"2021","v":"2021"},
+{"n":"2020","v":"2020"},
+{"n":"2019","v":"2019"},
+{"n":"2018","v":"2018"},
+{"n":"2017","v":"2017"},
+{"n":"2016","v":"2016"},
+{"n":"2015","v":"2015"},
+{"n":"2014","v":"2014"},
+{"n":"2013","v":"2013"},
+{"n":"2012","v":"2012"},
+{"n":"2011","v":"2011"},
+{"n":"2010","v":"2010"}
+]
+}
+]
+}
 }
