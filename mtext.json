@@ -21,6 +21,16 @@
       "ext": "https://cdn.jsdelivr.net/gh/tvba/x@main/coke.js"
     },
     {
+      "key": "buka_spiderb",
+      "name": "不卡🐞",
+      "type": 3,
+      "api": "csp_Buka",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://cdn.jsdelivr.net/gh/tvba/x@main/54-buka.js"
+    },
+    {
       "key": "csp_xpath_阿里",
       "name": "测试(XP)",
       "type": 3,
