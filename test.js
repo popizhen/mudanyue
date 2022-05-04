@@ -20,7 +20,7 @@
     "homeVodImg": "/a/@data-original",
     "homeVodImgR": "",
     "homeVodMark": "//span[@class='pic_text text_right']/text()",
-    "cateUrl": "https://www.qkw2.com/vod/show/{cateId}--------{catePg}---.html",
+    "cateUrl": "https://www.qkw2.com/vod/show/{cateId}-{area}-{by}------{catePg}---{year}.html",
     "cateVodNode": "//ul[contains(@class,'vodlist vodlist_wi')]/li",
     "cateVodName": "/a/@title",
     "cateVodId": "/a/@href",
