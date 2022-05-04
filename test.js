@@ -55,7 +55,7 @@
     "dtUrlIdR": "/vod/play/(\\S+).html",
     "dtUrlName": "/text()",
     "dtUrlNameR": "",
-    "playUrl": "http://1090ys2.com/play/{playUrl}.html",
+    "playUrl": "https://www.qkw2.com/vod/play/{playUrl}.html",
     "playUa": "",
     "searchUrl": "{wd}",
     "scVodNode": "",
