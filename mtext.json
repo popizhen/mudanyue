@@ -31,7 +31,7 @@
       "ext": "https://popizhen.github.io/mudanyue/test.js"
     },
     {
-      "key": "csp_xpath_阿里",
+      "key": "csp_xpath_测试",
       "name": "测试(XP)",
       "type": 3,
       "api": "csp_XPath",
@@ -43,7 +43,7 @@
 
 
     {
-      "key": "csp_xpath_阿里",
+      "key": "csp_xpath_test",
       "name": "测试(XP筛选分类)",
       "type": 3,
       "api": "csp_XPathMacFilter",
