@@ -3,8 +3,8 @@
     "ua": "",
     "homeUrl": "https://www.qkw2.com/",
     "dcVipFlag": "true",
-    "pCfgJs": "https://www.qkw2.com/static/js/playerconfig.js",
-    "pCfgJsR": "MacPlayerConfig.player_list=([\\w\\W]*?),MacPlayerConfig.downer_list=",
+ //   "pCfgJs": "https://www.qkw2.com/static/js/playerconfig.js",
+ //   "pCfgJsR": "MacPlayerConfig.player_list=([\\w\\W]*?),MacPlayerConfig.downer_list=",
     "dcShow2Vip": {},
     "dcPlayUrl": "true",
     "cateManual": {
