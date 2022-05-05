@@ -1,94 +1,315 @@
 {
-  "author": "baddychen",
-  "ua": "",
-  "homeUrl": "http://akdy2019.com",
-  "dcVipFlag": "true",
-  "pCfgJs": "http://akdy2019.com/static/js/playerconfig.js",
-  "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
-  "dcShow2Vip": {},
-  "dcPlayUrl": "true",
-  "cateNode": "//ul[@class='item nav-list clearfix']/li/a[contains(@href, 'aktype') and not(contains(@href,'24'))]",
-  "cateName": "/text()",
-  "cateId": "/@href",
-  "cateIdR": "/aktype/(\\d+).html",
-  "cateManual":{},
-  "homeVodNode": "//ul[@class='myui-vodlist clearfix']//a[@class='myui-vodlist__thumb lazyload']",
-  "homeVodName": "/@title",
-  "homeVodId": "/@href",
-  "homeVodIdR": "/akdetail/(\\w+).html",
-  "homeVodImg": "/@data-original",
-  "homeVodImgR": "",
-  "homeVodMark": "/span[contains(@class,'pic-text')]/text()",
-  "cateUrl": "http://akdy2019.com/akshow/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
-  "cateVodNode": "//ul[@class='myui-vodlist clearfix']//a[@class='myui-vodlist__thumb lazyload']",
-  "cateVodName": "/@title",
-  "cateVodId": "/@href",
-  "cateVodIdR": "/akdetail/(\\w+).html",
-  "cateVodImg": "/@data-original",
-  "cateVodImgR": "",
-  "cateVodMark": "/span[contains(@class,'pic-text')]/text()",
-  "dtUrl": "http://akdy2019.com/akdetail/{vid}.html",
-  "dtNode": "//body",
-  "dtName": "//h1/text()",
-  "dtNameR": "",
-  "dtImg": "//a[@class='myui-vodlist__thumb picture']/img/@data-original",
-  "dtImgR": "",
-  "dtCate": "//span[contains(@class,'text-muted') and contains(text(),'分类')]/following-sibling::*/text()",
-  "dtCateR": "",
-  "dtArea": "//span[contains(@class,'text-muted') and contains(text(),'地区')]/following-sibling::*/text()",
-  "dtAreaR": "",
-  "dtYear": "//span[contains(@class,'text-muted') and contains(text(),'年份')]/following-sibling::*/text()",
-  "dtYearR": "",
-  "dtActor": "//span[contains(@class,'text-muted') and contains(text(),'主演')]/following-sibling::*/text()",
-  "dtActorR": "",
-  "dtDirector": "//span[contains(@class,'text-muted') and contains(text(),'导演')]/following-sibling::*/text()",
-  "dtDirectorR": "",
-  "dtMark": "//div[@class='myui-content__detail']/p[2]/span[2]/text()",
-  "dtMarkR": "",
-  "dtDesc": "//div[@class='col-pd text-collapse content']/span[2]//text()",
-  "dtDescR": "",
-  "dtFromNode": "//a[@data-toggle='tab']",
-  "dtFromName": "/text()",
-  "dtFromNameR": "",
-  "dtUrlNode": "//div[contains(@id,'playlist')]/ul",
-  "dtUrlSubNode": "/li/a",
-  "dtUrlId": "@href",
-  "dtUrlIdR": "/akplay/(\\S+).html",
-  "dtUrlName": "/text()",
-  "dtUrlNameR": "",
-  "playUrl": "http://akdy2019.com/akplay/{playUrl}.html",
-  "playUa": "",
-  "searchUrl": "http://akdy2019.com/ajax/suggest?mid=1&wd={wd}",
-  "scVodNode": "json:list",
-  "scVodName": "name",
-  "scVodId": "id",
-  "scVodIdR": "",
-  "scVodImg": "pic",
-  "scVodMark": "",
-  "filter":{
+    "author": "春风",
+    "ua": "",
+    "homeUrl": "https://www.qkw2.com/",
+    "dcVipFlag": "true",
+    "pCfgJs": "https://www.qkw2.com/static/js/playerconfig.js",
+    "pCfgJsR": "MacPlayerConfig.player_list=([\\w\\W]*?),MacPlayerConfig.downer_list=",
+    "dcShow2Vip": {},
+    "dcPlayUrl": "true",
+    "cateManual": {
+        "电影": "1",
+        "连续剧": "2",
+        "动漫": "4",
+        "综艺": "3"
+    },
+    "homeVodNode": "//ul[contains(@class,'vodlist vodlist_wi')]/li",
+    "homeVodName": "/a/@title",
+    "homeVodId": "/a/@href",
+    "homeVodIdR": "/vod/detail/(\\w+).html",
+    "homeVodImg": "/a/@data-original",
+    "homeVodImgR": "",
+    "homeVodMark": "//span[@class='pic_text text_right']/text()",
+    "cateUrl": "https://www.qkw2.com/vod/show/{cateId}-{area}-{by}------{catePg}---{year}.html",
+    "cateVodNode": "//ul[contains(@class,'vodlist vodlist_wi')]/li",
+    "cateVodName": "/a/@title",
+    "cateVodId": "/a/@href",
+    "cateVodIdR": "/vod/detail/(\\w+).html",
+    "cateVodImg": "/a/@data-original",
+    "cateVodImgR": "",
+    "cateVodMark": "//span[@class='pic_text text_right']/text()",
+    "dtUrl": "https://www.qkw2.com/vod/play/{vid}-1-1.html",
+    "dtNode": "//body",
+    "dtName": "//h3[@class='title']/text()",
+    "dtNameR": "",
+    "dtImg": "//div[@class='play_vlist cblock']/div[contains(@class,'play_vlist_thumb')]/@data-original",
+    "dtImgR": "",
+    "dtCate": "//span[contains(text(), '类型')]/following-sibling::a/text()",
+    "dtCateR": "",
+    "dtYear": "//span[contains(text(), '年份')]/following-sibling::a/text()",
+    "dtYearR": "",
+    "dtArea": "//span[contains(text(), '地区')]/following-sibling::a/text()",
+    "dtAreaR": "",
+    "dtDirector": "//span[contains(text(), '导演')]/following-sibling::a/text()",
+    "dtDirectorR": "",
+    "dtActor": "//span[contains(text(), '主演')]/parent::text()",
+    "dtActorR": "",
+    "dtDesc": "//div[@class='panel play_content']/text()",
+    "dtDescR": "",
+    "dtFromNode": "//ul[@class='title_nav']/li/label/span",
+    "dtFromName": "/text()",
+    "dtFromNameR": "",
+    "dtUrlNode": "//ul[@class='content_playlist clearfix']",
+    "dtUrlSubNode": "/li/a",
+    "dtUrlId": "@href",
+    "dtUrlIdR": "/vod/play/(\\S+).html",
+    "dtUrlName": "/text()",
+    "dtUrlNameR": "",
+    "playUrl": "https://www.qkw2.com/vod/play/{playUrl}.html",
+    "playUa": "",
+    "searchUrl": "https://www.qkw2.com/vod/search/-------------.html?wd={wd}&submit=",
+    "scVodNode": "//div[@class='searchlist_img']/a",
+    "scVodName": "/@title",
+    "scVodId": "/@href",
+    "scVodIdR": "/vod/detail/(\\w+).html",
+    "scVodImg": "/@data-original",
+    "scVodMark": "/span[@class='pic_text text_right']/text()",
+   "filter":{
 "1": [
-{"name":"类型","key":"class","value":[{"n":"全部","v":""},{"n":"动作","v":"动作"},{"n":"剧情","v":"剧情"},{"n":"喜剧","v":"喜剧"},{"n":"爱情","v":"爱情"},{"n":"恐怖","v":"恐怖"},{"n":"惊悚","v":"惊悚"},{"n":"悬疑","v":"悬疑"},{"n":"科幻","v":"科幻"},{"n":"战争","v":"战争"},{"n":"历史","v":"历史"},{"n":"冒险","v":"冒险"},{"n":"记录","v":"记录"},{"n":"偶像","v":"偶像"},{"n":"古装","v":"古装"},{"n":"动画","v":"动画"},{"n":"武侠","v":"武侠"},{"n":"枪战","v":"枪战"}]},
-{"name":"年份","key":"year","value":[{"n":"全部","v":""},{"n":"2022","v":"2022"},{"n":"2021","v":"2021"},{"n":"2020","v":"2020"},{"n":"2019","v":"2019"},{"n":"2018","v":"2018"},{"n":"2017","v":"2017"},{"n":"2016","v":"2016"},{"n":"2015","v":"2015"},{"n":"2014","v":"2014"},{"n":"2013","v":"2013"},{"n":"2012","v":"2012"},{"n":"2011","v":"2011"},{"n":"2010","v":"2010"},{"n":"2009","v":"2009"},{"n":"2008","v":"2008"},{"n":"更早","v":"更早"}]},
-{"name":"地区","key":"area","value":[{"n":"全部","v":""},{"n":"大陆","v":"中国大陆"},{"n":"香港","v":"中国香港"},{"n":"台湾","v":"中国台湾"},{"n":"美国","v":"美国"},{"n":"法国","v":"法国"},{"n":"英国","v":"英国"},{"n":"日本","v":"日本"},{"n":"韩国","v":"韩国"},{"n":"印度","v":"印度"},{"n":"泰国","v":"泰国"},{"n":"其他","v":"其他"}]},
-{"name":"排序","key":"by","value":[{"n":"时间","v":"time"},{"n":"人气","v":"hits"},{"n":"评分","v":"score"}]}
+{
+"name":"类型",
+"key":"cateId",
+"value":[
+{"n":"全部","v":"1"},
+{"n":"动作片","v":"6"},
+{"n":"喜剧片","v":"7"},
+{"n":"爱情片","v":"8"},
+{"n":"科幻片","v":"9"},
+{"n":"恐怖片","v":"10"},
+{"n":"剧情片","v":"11"},
+{"n":"战争片","v":"12"},
+{"n":"奇幻片","v":"21"},
+{"n":"纪录片","v":"22"},
+{"n":"悬疑片","v":"25"},
+{"n":"犯罪片","v":"26"},
+{"n":"惊悚片","v":"27"}
+]
+},
+{
+"name":"年份",
+"key":"year",
+"value":[
+{"n":"全部","v":""},
+{"n":"2022","v":"2022"},
+{"n":"2021","v":"2021"},
+{"n":"2020","v":"2020"},
+{"n":"2019","v":"2019"},
+{"n":"2018","v":"2018"},
+{"n":"2017","v":"2017"},
+{"n":"2016","v":"2016"},
+{"n":"2015","v":"2015"},
+{"n":"2014","v":"2014"},
+{"n":"2013","v":"2013"},
+{"n":"2012","v":"2012"},
+{"n":"2011","v":"2011"},
+{"n":"2010","v":"2010"}
+]
+},
+{
+"name":"地区",
+"key":"area",
+"value":[
+{"n":"全部","v":""},
+{"n":"大陆","v":"大陆"},
+{"n":"香港","v":"香港"},
+{"n":"台湾","v":"台湾"},
+{"n":"美国","v":"美国"},
+{"n":"韩国","v":"韩国"},
+{"n":"日本","v":"日本"},
+{"n":"英国","v":"英国"},
+{"n":"法国","v":"法国"},
+{"n":"泰国","v":"泰国"},
+{"n":"印度","v":"印度"},
+{"n":"德国","v":"德国"},
+{"n":"意大利","v":"意大利"},
+{"n":"加拿大","v":"加拿大"}
+]
+},
+{
+"name":"排序",
+"key":"by",
+"value":[
+{"n":"全部","v":""},
+{"n":"时间","v":"time"},
+{"n":"人气","v":"hits"},
+{"n":"评分","v":"score"}
+]
+}
 ],
 "2": [
-{"name":"类型","key":"class","value":[{"n":"全部","v":""},{"n":"动作","v":"动作"},{"n":"剧情","v":"剧情"},{"n":"喜剧","v":"喜剧"},{"n":"爱情","v":"爱情"},{"n":"恐怖","v":"恐怖"},{"n":"惊悚","v":"惊悚"},{"n":"悬疑","v":"悬疑"},{"n":"科幻","v":"科幻"},{"n":"战争","v":"战争"},{"n":"历史","v":"历史"},{"n":"冒险","v":"冒险"},{"n":"记录","v":"记录"},{"n":"偶像","v":"偶像"},{"n":"古装","v":"古装"},{"n":"动画","v":"动画"},{"n":"武侠","v":"武侠"}]},
-{"name":"年份","key":"year","value":[{"n":"全部","v":""},{"n":"2022","v":"2022"},{"n":"2021","v":"2021"},{"n":"2020","v":"2020"},{"n":"2019","v":"2019"},{"n":"2018","v":"2018"},{"n":"2017","v":"2017"},{"n":"2016","v":"2016"},{"n":"2015","v":"2015"},{"n":"2014","v":"2014"},{"n":"2013","v":"2013"},{"n":"2012","v":"2012"},{"n":"2011","v":"2011"},{"n":"2010","v":"2010"},{"n":"2009","v":"2009"},{"n":"2008","v":"2008"},{"n":"更早","v":"更早"}]},
-{"name":"地区","key":"area","value":[{"n":"全部","v":""},{"n":"大陆","v":"中国大陆"},{"n":"香港","v":"中国香港"},{"n":"台湾","v":"中国台湾"},{"n":"美国","v":"美国"},{"n":"法国","v":"法国"},{"n":"英国","v":"英国"},{"n":"日本","v":"日本"},{"n":"韩国","v":"韩国"},{"n":"印度","v":"印度"},{"n":"泰国","v":"泰国"},{"n":"其他","v":"其他"}]},
-{"name":"排序","key":"by","value":[{"n":"时间","v":"time"},{"n":"人气","v":"hits"},{"n":"评分","v":"score"}]}
+{
+"name":"类型",
+"key":"cateId",
+"value":[
+{"n":"全部","v":"2"},
+{"n":"国产剧","v":"13"},
+{"n":"港台剧","v":"14"},
+{"n":"日韩剧","v":"15"},
+{"n":"欧美剧","v":"16"},
+{"n":"海外剧","v":"20"}
+]
+},
+{
+"name":"年份",
+"key":"year",
+"value":[
+{"n":"全部","v":""},
+{"n":"2022","v":"2022"},
+{"n":"2021","v":"2021"},
+{"n":"2020","v":"2020"},
+{"n":"2019","v":"2019"},
+{"n":"2018","v":"2018"},
+{"n":"2017","v":"2017"},
+{"n":"2016","v":"2016"},
+{"n":"2015","v":"2015"},
+{"n":"2014","v":"2014"},
+{"n":"2013","v":"2013"},
+{"n":"2012","v":"2012"},
+{"n":"2011","v":"2011"},
+{"n":"2010","v":"2010"}
+]
+},
+{
+"name":"地区",
+"key":"area",
+"value":[
+{"n":"全部","v":""},
+{"n":"大陆","v":"大陆"},
+{"n":"香港","v":"香港"},
+{"n":"台湾","v":"台湾"},
+{"n":"美国","v":"美国"},
+{"n":"韩国","v":"韩国"},
+{"n":"日本","v":"日本"},
+{"n":"泰国","v":"泰国"},
+{"n":"新加坡","v":"新加坡"},
+{"n":"英国","v":"英国"},
+{"n":"新加坡","v":"新加坡"},
+{"n":"其他","v":"其他"}
+]
+},
+{
+"name":"排序",
+"key":"by",
+"value":[
+{"n":"全部","v":""},
+{"n":"时间","v":"time"},
+{"n":"人气","v":"hits"},
+{"n":"评分","v":"score"}
+]
+}
 ],
 "3": [
-{"name":"类型","key":"class","value":[{"n":"全部","v":""},{"n":"动作","v":"动作"},{"n":"剧情","v":"剧情"},{"n":"喜剧","v":"喜剧"},{"n":"爱情","v":"爱情"},{"n":"恐怖","v":"恐怖"},{"n":"惊悚","v":"惊悚"},{"n":"悬疑","v":"悬疑"},{"n":"科幻","v":"科幻"},{"n":"战争","v":"战争"},{"n":"历史","v":"历史"},{"n":"冒险","v":"冒险"},{"n":"记录","v":"记录"},{"n":"偶像","v":"偶像"},{"n":"古装","v":"古装"},{"n":"动画","v":"动画"},{"n":"武侠","v":"武侠"}]},
-{"name":"年份","key":"year","value":[{"n":"全部","v":""},{"n":"2022","v":"2022"},{"n":"2021","v":"2021"},{"n":"2020","v":"2020"},{"n":"2019","v":"2019"},{"n":"2018","v":"2018"},{"n":"2017","v":"2017"},{"n":"2016","v":"2016"},{"n":"2015","v":"2015"},{"n":"2014","v":"2014"},{"n":"2013","v":"2013"},{"n":"2012","v":"2012"},{"n":"2011","v":"2011"},{"n":"2010","v":"2010"},{"n":"2009","v":"2009"},{"n":"2008","v":"2008"},{"n":"更早","v":"更早"}]},
-{"name":"地区","key":"area","value":[{"n":"全部","v":""},{"n":"大陆","v":"中国大陆"},{"n":"香港","v":"中国香港"},{"n":"台湾","v":"中国台湾"},{"n":"美国","v":"美国"},{"n":"法国","v":"法国"},{"n":"英国","v":"英国"},{"n":"日本","v":"日本"},{"n":"韩国","v":"韩国"},{"n":"印度","v":"印度"},{"n":"泰国","v":"泰国"},{"n":"其他","v":"其他"}]},
-{"name":"排序","key":"by","value":[{"n":"时间","v":"time"},{"n":"人气","v":"hits"},{"n":"评分","v":"score"}]}
+{
+"name":"类型",
+"key":"cateId",
+"value":[
+{"n":"全部","v":"3"}
+]
+},
+{
+"name":"年份",
+"key":"year",
+"value":[
+{"n":"全部","v":""},
+{"n":"2022","v":"2022"},
+{"n":"2021","v":"2021"},
+{"n":"2020","v":"2020"},
+{"n":"2019","v":"2019"},
+{"n":"2018","v":"2018"},
+{"n":"2017","v":"2017"},
+{"n":"2016","v":"2016"},
+{"n":"2015","v":"2015"},
+{"n":"2014","v":"2014"},
+{"n":"2013","v":"2013"},
+{"n":"2012","v":"2012"},
+{"n":"2011","v":"2011"},
+{"n":"2010","v":"2010"}
+]
+},
+{
+"name":"地区",
+"key":"area",
+"value":[
+{"n":"全部","v":""},
+{"n":"大陆","v":"大陆"},
+{"n":"香港","v":"香港"},
+{"n":"台湾","v":"台湾"},
+{"n":"美国","v":"美国"},
+{"n":"韩国","v":"韩国"},
+{"n":"日本","v":"日本"},
+{"n":"泰国","v":"泰国"},
+{"n":"印度","v":"印度"},
+{"n":"德国","v":"德国"},
+{"n":"英国","v":"英国"},
+{"n":"法国","v":"法国"}
+]
+},
+{
+"name":"排序",
+"key":"by",
+"value":[
+{"n":"全部","v":""},
+{"n":"时间","v":"time"},
+{"n":"人气","v":"hits"},
+{"n":"评分","v":"score"}
+]
+}
 ],
 "4": [
-{"name":"类型","key":"class","value":[{"n":"全部","v":""},{"n":"动作","v":"动作"},{"n":"剧情","v":"剧情"},{"n":"喜剧","v":"喜剧"},{"n":"爱情","v":"爱情"},{"n":"恐怖","v":"恐怖"},{"n":"惊悚","v":"惊悚"},{"n":"悬疑","v":"悬疑"},{"n":"科幻","v":"科幻"},{"n":"战争","v":"战争"},{"n":"历史","v":"历史"},{"n":"冒险","v":"冒险"},{"n":"记录","v":"记录"},{"n":"偶像","v":"偶像"},{"n":"古装","v":"古装"},{"n":"动画","v":"动画"},{"n":"武侠","v":"武侠"}]},
-{"name":"年份","key":"year","value":[{"n":"全部","v":""},{"n":"2022","v":"2022"},{"n":"2021","v":"2021"},{"n":"2020","v":"2020"},{"n":"2019","v":"2019"},{"n":"2018","v":"2018"},{"n":"2017","v":"2017"},{"n":"2016","v":"2016"},{"n":"2015","v":"2015"},{"n":"2014","v":"2014"},{"n":"2013","v":"2013"},{"n":"2012","v":"2012"},{"n":"2011","v":"2011"},{"n":"2010","v":"2010"},{"n":"2009","v":"2009"},{"n":"2008","v":"2008"},{"n":"更早","v":"更早"}]},
-{"name":"地区","key":"area","value":[{"n":"全部","v":""},{"n":"大陆","v":"中国大陆"},{"n":"香港","v":"中国香港"},{"n":"台湾","v":"中国台湾"},{"n":"美国","v":"美国"},{"n":"法国","v":"法国"},{"n":"英国","v":"英国"},{"n":"日本","v":"日本"},{"n":"韩国","v":"韩国"},{"n":"印度","v":"印度"},{"n":"泰国","v":"泰国"},{"n":"其他","v":"其他"}]},
-{"name":"排序","key":"by","value":[{"n":"时间","v":"time"},{"n":"人气","v":"hits"},{"n":"评分","v":"score"}]}
+{
+"name":"类型",
+"key":"cateId",
+"value":[
+{"n":"全部","v":"4"}
+]
+},
+{
+"name":"年份",
+"key":"year",
+"value":[
+{"n":"全部","v":""},
+{"n":"2022","v":"2022"},
+{"n":"2021","v":"2021"},
+{"n":"2020","v":"2020"},
+{"n":"2019","v":"2019"},
+{"n":"2018","v":"2018"},
+{"n":"2017","v":"2017"},
+{"n":"2016","v":"2016"},
+{"n":"2015","v":"2015"},
+{"n":"2014","v":"2014"},
+{"n":"2013","v":"2013"},
+{"n":"2012","v":"2012"},
+{"n":"2011","v":"2011"},
+{"n":"2010","v":"2010"}
+]
+},
+{
+"name":"地区",
+"key":"area",
+"value":[
+{"n":"全部","v":""},
+{"n":"大陆","v":"大陆"},
+{"n":"香港","v":"香港"},
+{"n":"台湾","v":"台湾"},
+{"n":"美国","v":"美国"},
+{"n":"韩国","v":"韩国"},
+{"n":"日本","v":"日本"},
+{"n":"泰国","v":"泰国"},
+{"n":"英国","v":"英国"},
+{"n":"法国","v":"法国"},
+{"n":"德国","v":"德国"}
+]
+},
+{
+"name":"排序",
+"key":"by",
+"value":[
+{"n":"全部","v":""},
+{"n":"时间","v":"time"},
+{"n":"人气","v":"hits"},
+{"n":"评分","v":"score"}
+]
+}
 ]
 }
 }
