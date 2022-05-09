@@ -17,7 +17,7 @@
     "homeVodImgR": "",
     "homeVodMark": "/span[@class='tips']/text()",
     "cateUrl": "https://www.wit4you.com/type.html?pid={cateId}&page={catePg}",
-    "cateVodNode": "json:curQueryList:list",
+    "cateVodNode": "curQueryList:list",
     "cateVodName": "videoTitle",
     "cateVodId": "_id",
     "cateVodIdR": "",
