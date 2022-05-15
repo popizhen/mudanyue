@@ -43,7 +43,7 @@
     "dtActorR": "",
     "dtDesc": "//div[contains(text(), '剧情')]/child::span/text()",
     "dtDescR": "",
-    "dtFromNode": "//dl/dt[contains(text(),'无尽资源') or contains(text(),'陶片资源') or contains(text(),'红牛资源')]",
+    "dtFromNode": "//dl/dt[contains(text(),'无尽资源') or contains(text(),'陶片资源')]",
 //    "dtFromName": "/text()",
     "dtFromName": "/text()",
     "dtFromNameR": "",
