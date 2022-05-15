@@ -43,7 +43,7 @@
     "dtActorR": "",
     "dtDesc": "//div[contains(text(), '剧情')]/child::span/text()",
     "dtDescR": "",
-    "dtFromNode": "//dl/dt[not(contains(text(),'秒播'))]",
+    "dtFromNode": "//dl/dt",
 //    "dtFromName": "/text()",
     "dtFromName": "concat('播放源',count(parent::*/preceding::*//dl/dt) + 1)",
     "dtFromNameR": "",
