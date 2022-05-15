@@ -52,7 +52,7 @@
     "dtUrlIdR": "\\S+\\('(.*)'\\);",
     "dtUrlName": "/text()",
     "dtUrlNameR": "",
-    "playUrl": "https://www.mianfeikk.com/{vid}.html",
+    "playUrl": "{playUrl}",
     "playUa": "",
     "searchUrl": "https://www.mianfeikk.com/so/{wd}.html",
     "scVodNode": "//a[@class='thumbnail']",
