@@ -44,7 +44,6 @@
     "dtDesc": "//div[contains(text(), '剧情')]/child::span/text()",
     "dtDescR": "",
     "dtFromNode": "//dl/dt",
-//    "dtFromName": "/text()",
     "dtFromName": "/text()",
     "dtFromNameR": "",
     "dtUrlNode": "//div[@class='playlist clearfix']/ul",
