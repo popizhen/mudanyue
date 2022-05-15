@@ -1,6 +1,6 @@
 {
     "author": "春风",
-    "ua": "",
+    "ua": "Mozilla/5.0 (Linux; Android 10; LYA-AL00; HMSCore 6.4.0.312; GMSCore 20.15.16) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 HuaweiBrowser/11.0.4.300 Mobile Safari/537.36",
     "homeUrl": "https://www.mianfeikk.com/",
     "dcVipFlag": "true",
     "dcPlayUrl": "true",
@@ -34,7 +34,7 @@
     "dtCate": "//div[contains(text(), '类型')]/child::span/a/text()",
     "dtCateR": "",
     "dtYear": "//h1[@class='product-title']/span/text()",
-    "dtYearR": "(\\S+)",
+    "dtYearR": "\\((\\S+)\\)",
     "dtArea": "//div[contains(text(), '地区')]/child::span/a/text()",
     "dtAreaR": "",
     "dtDirector": "//div[contains(text(), '导演')]/child::span/a/text()",
