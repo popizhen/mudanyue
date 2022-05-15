@@ -26,7 +26,7 @@
     "cateVodImgR": "",
     "cateVodMark": "/span/text()",
     "dtUrl": "https://www.mianfeikk.com/{vid}.html",
-    "dtNode": "//body",
+    "dtNode": "//html",
     "dtName": "//h1[@class='product-title']/text()",
     "dtNameR": "",
     "dtImg": "//header[@class='product-header']/img/@src",
