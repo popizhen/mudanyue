@@ -45,7 +45,7 @@
     "dtDescR": "",
     "dtFromNode": "//dl/dt",
 //    "dtFromName": "/text()",
-    "dtFromName": "concat('播放源',count(//dl/dt) + 1)",
+    "dtFromName": "concat('播放源',count(*//dl/dt) + 1)",
     "dtFromNameR": "",
     "dtUrlNode": "//div[@class='playlist clearfix']/ul",
     "dtUrlSubNode": "/li/a[contains(@onclick,'play00')]",
