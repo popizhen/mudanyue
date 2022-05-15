@@ -53,7 +53,7 @@
     "dtUrlName": "/text()",
     "dtUrlNameR": "",
     "playUrl": "{playUrl}",
-    "playUa": "",
+    "playUa": "Mozilla/5.0 (Linux; U; Android 10; zh-cn; M2004J19C Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.147 Mobile Safari/537.36 XiaoMi/MiuiBrowser/13.6.15",
     "searchUrl": "https://www.mianfeikk.com/so/{wd}.html",
     "scVodNode": "//a[@class='thumbnail']",
     "scVodName": "/img/@alt",
