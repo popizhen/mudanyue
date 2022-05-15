@@ -43,7 +43,7 @@
     "dtActorR": "",
     "dtDesc": "//div[contains(text(), '剧情')]/child::span/text()",
     "dtDescR": "",
-    "dtFromNode": "//dl/dt[not(contains(text(),'秒播资源'))]",
+    "dtFromNode": "//header/dl/dt[not(contains(text(),'秒播'))]/text()",
     "dtFromName": "/text()",
     "dtFromNameR": "",
     "dtUrlNode": "//div[@class='playlist clearfix']/ul",
