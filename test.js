@@ -47,7 +47,7 @@
     "dtFromName": "/text()",
     "dtFromNameR": "",
     "dtUrlNode": "//div[@class='playlist clearfix']/ul",
-    "dtUrlSubNode": "/li/a[contains(@onclick,'http')]",
+    "dtUrlSubNode": "/li/a",
     "dtUrlId": "/@onclick",
     "dtUrlIdR": "\\S+\\('(.*)'\\);",
     "dtUrlName": "/text()",
