@@ -1,64 +1,91 @@
 {
-    "author": "春风",
+    "author": "dj",
     "ua": "",
-    "homeUrl": "https://www.mianfeikk.com/",
-    "dcVipFlag": "true",
-    "dcPlayUrl": "true",
+    "homeUrl": "http://www.jrskan.com/",
+    //"homeUrl": "http://jrsbxj.com/",
+    //"homeUrl": "http://jrsyyds.com/",
+    
     "cateManual": {
-        "电影": "dianying",
-        "连续剧": "dianshiju",
-        "动漫": "dongman",
-        "综艺": "zongyi"
+        "DJ看": "1"
     },
-    "homeVodNode": "//a[@class='thumbnail']",
-    "homeVodName": "/img/@alt",
-    "homeVodId": "/@href",
-    "homeVodIdR": "/(\\S+).html",
-    "homeVodImg": "/img/@src",
-    "homeVodImgR": "",
-    "homeVodMark": "//span/text()",
-    "cateUrl": "https://www.mianfeikk.com/{cateId}/---{catePg}-.html",
-    "cateVodNode": "//a[@class='thumbnail']",
-    "cateVodName": "//img/@alt",
-    "cateVodId": "/@href",
-    "cateVodIdR": "/(\\S+).html",
-    "cateVodImg": "/img/@src",
-    "cateVodImgR": "",
-    "cateVodMark": "/span/text()",
-    "dtUrl": "https://www.mianfeikk.com/{vid}.html",
-    "dtNode": "//body",
-    "dtName": "//h1[@class='product-title']/text()",
-    "dtNameR": "",
-    "dtImg": "//header[@class='product-header']/img/@src",
-    "dtImgR": "",
-    "dtCate": "//div[contains(text(), '类型')]/child::span/a/text()",
-    "dtCateR": "",
-    "dtYear": "//h1[@class='product-title']/span/text()",
-    "dtYearR": "\\((\\S+)\\)",
-    "dtArea": "//div[contains(text(), '地区')]/child::span/a/text()",
-    "dtAreaR": "",
-    "dtDirector": "//div[contains(text(), '导演')]/child::span/a/text()",
+	
+	// 首页推荐视频的节点
+    "homeVodNode": "//ul[@data-stype='zqlq']",
+	// 首页推荐视频的名称
+    //"homeVodName": "/li[@class='lab_events']/span/text()",
+	"homeVodName": "concat(/li[@class='lab_time']/text(),'-',/li[@class='lab_events']/span/text())",
+	// 首页推荐视频的id
+    "homeVodId": "/li[@class='lab_channel']/a[1]/@href",
+	// 二次处理正则
+    "homeVodIdR": "http://play.sportsteam365.com/play/steam(\\d+).html",
+	//"cateVodIdR": "\\S+/(\\d+).html",
+	// 首页推荐视频的图片
+    "homeVodImg": "/li[@class='lab_team_home']/span/img/@src",  
+	// 首页推荐视频的简介
+    "homeVodMark": "concat(//li[@class='lab_team_home']/strong/text(),'-',//li[@class='lab_team_away']/strong/text(),'-dj')",
+	"home": "dj",
+	// 分类页地址 {cateId} 分类id {catePg} 当前页
+    "cateUrl": "http://www.jrskan.com/",
+	  // 同上面的homeVod字段 分类列表中的视频信息
+	"cateVodNode": "//ul[@data-stype='zqlq']",
+    //"cateVodName": "/li[@class='lab_events']/span/text()",
+    "cateVodName": "concat(/li[@class='lab_time']/text(),'-',/li[@class='lab_events']/span/text(),'dj')",
+    "cateVodId": "/li[@class='lab_channel']/a[1]/@href",
+    "cateVodIdR": "http://play.sportsteam365.com/play/steam(\\d+).html",
+	//"cateVodIdR": "\\S+/(\\d+).html",
+    "cateVodImg": "/li[@class='lab_team_home']/span/img/@src",
+    "cateVodMark": "concat(//li[@class='lab_team_home']/strong/text(),'-',//li[@class='lab_team_away']/strong/text())",
+	//"cateVodMark": "{vid}",
+	"cate": "dj",
+	// 详情页地址 用于获取详情页信息 及 播放列表和地址
+    //"dtUrl": "{vid}",
+	"dtUrl": "http://play.sportsteam333.com/play/steam{vid}.html",
+	// 详情节点
+    "dtNode": "//ul[@data-stype='zqlq']",
+	// 视频名
+    "dtName": "/li[1]/span/text()",
+	// 视频图片
+    "dtImg": "/li[3]/span/img/@src",
+	// 视频分类
+    "dtCate": "/li[1]/span/text()",
+    //演员
+    "dtActor": "/li[1]/span/text()",
+    // 导演
+    "dtDirector": "concat('xxx -','Never underestimate the heart of a champion! ')",
     "dtDirectorR": "",
-    "dtActor": "//div[contains(text(), '主演')]/child::span/a/text()",
-    "dtActorR": "",
-    "dtDesc": "//div[contains(text(), '剧情')]/child::span/text()",
-    "dtDescR": "",
-    "dtFromNode": "//dl/dt",
-    "dtFromName": "/text()",
+    // 视频简介
+    "dtDesc": "concat(/li[3]/strong/text(),'-',/li[5]/strong/text(),'-dj')",
+	
+	// 播放源节点
+    "dtFromNode": "//div[@class='sub_channel']/a/strong",
+	// 播放源名称
+    "dtFromName": "concat('dj-',/text())",
     "dtFromNameR": "",
-    "dtUrlNode": "//div[@class='playlist clearfix']/ul",
-    "dtUrlSubNode": "/li/a[contains(@onclick,'http')]",
-    "dtUrlId": "/@onclick",
-    "dtUrlIdR": "\\S+\\('(.*)'\\);",
-    "dtUrlName": "/text()",
+	// 播放列表节点
+    "dtUrlNode": "//div[@class='sub_channel']",
+	// 播放地址节点
+    "dtUrlSubNode": "/a",
+    "dtUrlSub": "/ff",
+	// 播放地址
+    "dtUrlId": "@data-play",
+    "dtUrlIdR": "/play/(\\S+)",
+	//"dtUrlIdR": "\\S+/(\\d+)&id2=",
+	// 剧集名称
+    "dtUrlName": "/strong/text()",
     "dtUrlNameR": "",
-    "playUrl": "{playUrl}",
-    "playUa": "Mozilla/5.0 (Linux; U; Android 10; zh-cn; M2004J19C Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.147 Mobile Safari/537.36 XiaoMi/MiuiBrowser/13.6.15",
-    "searchUrl": "https://www.mianfeikk.com/so/{wd}.html",
-    "scVodNode": "//a[@class='thumbnail']",
-    "scVodName": "/img/@alt",
-    "scVodId": "/@href",
-    "scVodIdR": "/(\\S+).html",
-    "scVodImg": "/@data-original",
-    "scVodMark": "//span/text()"
+	
+	//播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
+    "playUrl":"http://play.sportsteam333.com/play/{playUrl}#ff",
+    //"playUrl":"http://play.sportsteam666.com/play/{playUrl}",
+    //"playUrl": "http://play.sportsteam365.com/play/{playUrl}",
+    //"playUa": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36", 
+    //"playUa": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36",
+	
+    "searchUrl": "http://www.jrskan.com?key={wd}",
+    "scVodNode": "//div[@class='play_xg']/li",
+    "scVodName": "//div[@class='name']/a/@title",
+    "scVodId": "//div[@class='name']/a/@href",
+    "scVodIdR": "/play/(\\d+).html",
+    "scVodImg": "//div[@class='pic']/a/img/@src",
+    "scVodMark": ""
 }
