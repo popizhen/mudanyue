@@ -4,7 +4,7 @@
     "homeUrl": "https://www.lkvod.cc/",
     "dcVipFlag": "true",
     "pCfgJs": "https://www.lkvod.cc/static/js/playerconfig.js",
-    "pCfgJsR": "",
+    "pCfgJsR": "MacPlayerConfig.player_list=([\\w\\W]*?),MacPlayerConfig.downer_list=",
     "dcShow2Vip": {},
     "dcPlayUrl": "true",
     "cateManual": {
