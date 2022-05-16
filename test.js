@@ -15,8 +15,7 @@
         "国产剧": "5",
         "泰剧": "9",
         "动漫": "6",
-        "纪录片": "10",
-        "预告片": "8"   
+        "纪录片": "10"
     },
     "homeVodNode": "//li[contains(@class,'col-md-6 col-sm-4') or contains(@class,'col-lg-6 col-md-4')]//div[contains(@class,'stui-vodlist__box')]/a",
     "homeVodName": "/@title",
