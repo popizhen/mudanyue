@@ -13,7 +13,7 @@
   "homeVodIdR": "/show(\\S+).html",
   "homeVodImg": "/a/img/@src",
   "homeVodImgR": "",
-  "homeVodMark": "/div/otherinfo/a/text()",
+  "homeVodMark": "/div/div/a/text()",
 //  "homeVodMarkR": " - (.*)",
   "cateUrl": "https://v.xuangz.cn/whole/{cateId}_{area}_{class}__{year}___0_{by}_{catePg}.html",
   "cateVodNode": "//div[@class='movie-item-in']",
