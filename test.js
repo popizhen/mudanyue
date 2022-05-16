@@ -14,7 +14,7 @@
   "homeVodImg": "/a/img/@src",
   "homeVodImgR": "",
   "homeVodMark": "",
-  "cateUrl": "https://v.xuangz.cn/whole/{cateId}_{area}_{class}_{lang}_{year}___0_{by}__id_{catePg}.html",
+  "cateUrl": "https://v.xuangz.cn/whole/{cateId}_{area}_{class}__{year}___0_{by}_{catePg}.html",
   "cateVodNode": "//div[@class='movie-item-in']",
   "cateVodName": "/div/h1/a/text()",
   "cateVodId": "/div/h1/a/@href",
