@@ -2,8 +2,8 @@
     "author": "春风",
     "ua": "",
     "homeUrl": "http://www.huamaotv.com/",
-    "dcVipFlag": "true",
-    "dcPlayUrl": "true",
+    "dcVipFlag": "false",
+    "dcPlayUrl": "false",
     "cateManual": {
         "电影": "1",
         "连续剧": "2",
