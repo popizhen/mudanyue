@@ -23,7 +23,7 @@
   "cateVodImg": "/a/img/@src",
   "cateVodImgR": "",
   "cateVodMark": "concat(/div/h1/em/text(),' ㅤ',//span[@class='qtag hdtag']/text())",
-  "cateVodMarkR": "- ([\\s\\S]*)",
+  "cateVodMarkR": "- (.*)",
   "dtUrl": "https://v.xuangz.cn/show/{vid}.html",
   "dtNode": "//div[@class='row']",
   "dtName": "/div/h1/text()",
