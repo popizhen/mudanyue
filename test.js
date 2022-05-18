@@ -18,7 +18,7 @@
     "homeVodImgR": "",
     "homeVodMark": "/span[@class='pic-text']/text())",
 //    "cateUrl": "http://www.huamaotv.com/type/{cateId}-{catePg}.html",
-    "cateUrl": "http://www.huamaotv.com/list/{cateId}_{catePg}__{by}_0_{year}__{area}.html",
+    "cateUrl": "http://www.huamaotv.com/list/{cateId}_{catePg}__{by}_0_{year}__{area}_.html",
     "cateVodNode": "//a[contains(@class,'stui-vodlist__thumb')]",
     "cateVodName": "/@title",
     "cateVodId": "/@href",
