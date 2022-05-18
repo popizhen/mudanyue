@@ -29,12 +29,12 @@
         "武侠片": "31",
         "奇幻片": "32"     
     },
-    "homeVodNode": "//a[contains(@class,'myui-vodlist__thumb')]",
+    "homeVodNode": "//a[@class='myui-vodlist__thumb lazyload']",
     "homeVodName": "/@title",
     "homeVodId": "/@href",
     "homeVodIdR": "/move/(\\w+).html",
     "homeVodImg": "/@data-original",
-    "homeVodImgR": "",
+    "homeVodImgR": "\\S*(http\\S+)",
     "homeVodMark": "/span[@class='pic-text text-right']/text()",
     "cateUrl": "https://www.ml1080.com/flar/{cateId}-{catePg}.html",
     "cateVodNode": "//a[@class='myui-vodlist__thumb lazyload']",
@@ -42,7 +42,7 @@
     "cateVodId": "/@href",
     "cateVodIdR": "/move/(\\w+).html",
     "cateVodImg": "/@data-original",
-    "cateVodImgR": "",
+    "cateVodImgR": "\\S*(http\\S+)",
     "cateVodMark": "/span[@class='pic-text text-right']/text()",
     "dtUrl": "https://www.ml1080.com/move/{vid}.html",
     "dtNode": "//body",
@@ -79,5 +79,6 @@
     "scVodId": "/@href",
     "scVodIdR": "/move/(\\w+).html",
     "scVodImg": "/@data-original",
+    "scVodImgR": "\\S*(http\\S+)",
     "scVodMark": "/span[@class='pic-text text-right']/text()"
 }
