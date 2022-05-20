@@ -25,7 +25,7 @@
     "dtNode": "//body",
     "dtName": "//h2[@class='post_title']/text()",
     "dtNameR": "",
-    "dtImg": "http://play.sportsteam333.com/img/fd06ba41a2de13ab86456debdc68a330.png",
+    "dtImg": "//iframe/@src",
     "dtImgR": "",
     "dtCate": "//h2[@class='post_title']/text()",
     "dtCateR": "^[\\u4e00-\\u9fa5|\\s|/|\\w]{2}",
