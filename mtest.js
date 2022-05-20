@@ -1,7 +1,7 @@
 {
     "author": "春风",
     "ua": "",
-    "homeUrl": "http://www.11rzq.com/",
+    "homeUrl": "http://www.11rzq.com",
     "dcPlayUrl": "true",
     "cateManual": {
         "体育赛事推荐": "1"
@@ -10,9 +10,9 @@
     "homeVodName": "//td[@class='livetitle']/a/text()",
     "homeVodId": "//td[@class='livetitle']/a/@onclick",
     "homeVodIdR": "seo_link_de('.*');",
-    "homeVodImg": "http://play.sportsteam333.com/img/fd06ba41a2de13ab86456debdc68a330.png",
+    "homeVodImg": "https://qpzb6.com/static/media/logoCN.77ad0a49.png",
     "homeVodImgR": "",
-    "homeVodMark": "concat(//tr[@valign='center'][position()>4]/td[1],//tr[@valign='center'][position()>4]/td[3],//tr[@valign='center'][position()>4]/td[4]//text())",
+    "homeVodMark": "concat(/td[1],//td[3],/td[4]//text())",
     "cateUrl": "http:http://www.11rzq.com",
     "cateVodNode": "//tr[@valign='center'][position()>4]",
     "cateVodName": "//td[@class='livetitle']/a/text()",
