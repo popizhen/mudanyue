@@ -2,10 +2,6 @@
     "author": "春风",
     "ua": "",
     "homeUrl": "http://www.11rzq.com/",
-    "dcVipFlag": "true",
-    "pCfgJs": "http://www.11rzq.com/static/js/playerconfig.js",
-    "pCfgJsR": "",
-    "dcShow2Vip": {},
     "dcPlayUrl": "true",
     "cateManual": {
         "体育赛事推荐": "1"
