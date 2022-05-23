@@ -47,7 +47,7 @@
     "cateVodImg": "roomPic",
     "cateVodImgR": "",
     "cateVodMark": "",
-    "dtUrl": "http://live.yj1211.work/api/live/getRealUrl?platform=huya&roomId={vid}.html",
+    "dtUrl": "http://live.yj1211.work/api/live/getRealUrl?platform=huya&roomId={vid}",
     "dtNode": "json:data",
     "dtName": "concat('春风','欢迎你的','收看')",
     "dtNameR": "",
