@@ -69,7 +69,7 @@
     "dtFromName": "concat('播放源','一')",
     "dtFromNameR": "",
     "dtUrlNode": "json:data",
-    "dtUrlSubNode": "text()",
+    "dtUrlSubNode": ":",
     "dtUrlId": "OD",
     "dtUrlIdR": "",
     "dtUrlName": "concat('超清','')",
