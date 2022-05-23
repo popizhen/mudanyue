@@ -51,7 +51,7 @@
     "dtNode": "json:data",
     "dtName": "concat('春风','欢迎你的','收看')",
     "dtNameR": "",
-    "dtImg": "concat('我','就是','图片')",
+    "dtImg": "concat('http://live-cover.msstatic.com/huyalive/367138632-367138632-1576848417538179072-734400720-10057-A-0-1/20220523093357.jpg?streamName=367138632-367138632-1576848417538179072-734400720-10057-A-0-1&interval=10','','')",
     "dtImgR": "",
     "dtCate": "",
     "dtCateR": "",
