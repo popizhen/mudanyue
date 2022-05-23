@@ -58,7 +58,7 @@
     "dtDesc": "",
     "dtDescR": "",
     "dtFromNode": "",
-    "dtFromName": "concat('播放源',count(parent::*/preceding::*//*[contains(@text(),'SD')]) + 1)",
+    "dtFromName": "concat('播放源','一')",
     "dtFromNameR": "",
     "dtUrlNode": "//div[@class='stab_list']/ul",
     "dtUrlSubNode": "/li/a",
