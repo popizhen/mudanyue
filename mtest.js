@@ -43,7 +43,7 @@
     "dtNode": "//body",
     "dtName": "//h1/text()",
     "dtNameR": "",
-    "dtImg": "//text()",
+    "dtImg": "concat('https://puui.qpic.cn/vcover_vt_pic/0/mzc00200wryter91636718809500/260','')",
     "dtImgR": "",
     "dtCate": "",
     "dtCateR": "",
