@@ -39,7 +39,7 @@
     "homeVodImg": "roomPic",
     "homeVodImgR": "",
     "homeVodMark": "concat(categoryName,' ㅤ ㅤ',ownerName)",
-    "cateUrl": "http://live.yj1211.work/api/live/{cateId}&page=1",
+    "cateUrl": "http://live.yj1211.work/api/live/{cateId}&page={catePg}",
     "cateVodNode": "json:data",
     "cateVodName": "roomName",
     "cateVodId": "concat(platForm,'&roomId=',roomId)",
