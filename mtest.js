@@ -1,6 +1,6 @@
 {
     "author": "春风",
-    "ua": "",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36",
     "homeUrl": "http://live.yj1211.work/api/live/getRecommend?page=1&size=100",
     "dcVipFlag": "true",
     "dcPlayUrl": "true",
