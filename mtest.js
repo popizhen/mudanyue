@@ -79,7 +79,7 @@
     "searchUrl": "http://live.yj1211.work/api/live/search?platform=all&keyWords={wd}&isLive=0",
     "scVodNode": "json:data",
     "scVodName": "nickName",
-    "scVodId": "platForm",
+    "scVodId": "roomId",
     "scVodIdR": "",
     "scVodImg": "headPic",
     "scVodMark": "cateName"
