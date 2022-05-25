@@ -61,7 +61,7 @@
     "dtUrlName": "/text()",
     "dtUrlNameR": "",
     "playUrl": "http://app.lmvideos.cn/vod/play/{playUrl}.html",
-    "playUa": "",
+    "playUa": "Mozilla/5.0 (Linux; Android 10; LYA-AL00; HMSCore 6.5.0.312; GMSCore 20.15.16) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 HuaweiBrowser/11.0.4.300 Mobile Safari/537.36",
     "searchUrl": "http://app.lmvideos.cn/vod/search.html?wd={wd}&submit=",
     "scVodNode": "//a[@class='stui-vodlist__thumb lazyload']",
     "scVodName": "/@title",
