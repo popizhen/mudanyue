@@ -40,7 +40,7 @@
     "dtImg": "//a[@class='stui-vodlist__thumb lazyload']/@data-original",
     "dtImgR": "",
     "dtCate": "//font[contains(text(), '当前更新')]/parent::text()",
-    "dtCateR": "\"([\\s\\S]*)\"",
+    "dtCateR": "“([\\s\\S]*)”",
     "dtYear": "",
     "dtYearR": "",
     "dtArea": "",
