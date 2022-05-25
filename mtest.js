@@ -40,7 +40,7 @@
     "dtImg": "//a[@class='stui-vodlist__thumb lazyload']/@data-original",
     "dtImgR": "",
     "dtCate": "//div[@class='data']/text()",
-    "dtCateR": "/ \\S+ / \\S+ / \\S+ / \\S+ / (\\S+) / \\S+",
+    "dtCateR": "/\\s\\S+\\s/\\s\\S+\\s/\\s\\S+\\s/\\s\\S+\\s/\\s(\\S+)\\s/\\s\\S+",
     "dtYear": "//div[@class='data']/text()",
     "dtYearR": "/ \\S+ / (\\S+) / \\S+ / \\S+ / \\S+ / \\S+",
     "dtArea": "//div[@class='data']/text()",
