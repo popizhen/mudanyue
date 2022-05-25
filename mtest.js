@@ -43,7 +43,7 @@
     "dtCateR": "",
     "dtYear": "",
     "dtYearR": "",
-    "dtArea": "//div[@class='data']/text()",
+    "dtArea": "",
     "dtAreaR": "",
     "dtDirector": "//span[contains(text(), '导演')]/following-sibling::a/text()",
     "dtDirectorR": "",
