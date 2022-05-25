@@ -50,7 +50,7 @@
     "dtActor": "//span[contains(text(), '主演')]/following-sibling::a/text()",
     "dtActorR": "",
     "dtDesc": "//*[contains(text(), '简介')]/text()",
-    "dtDescR": "简介：(.*)",
+    "dtDescR": "简介：([\\s\\S]*)",
     "dtFromNode": "//ul[contains(@class,'play-tab')]/li/a",
     "dtFromName": "/text()",
     "dtFromNameR": "",
