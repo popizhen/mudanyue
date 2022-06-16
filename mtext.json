@@ -22,6 +22,17 @@
       "filterable": 0,
       "ext": "{\r\n      \"name\": \"10-影视工厂\",\r\n      \"url\": \"http://www.ysgc.cc\",\r\n      \"User\": \"空\",\r\n      \"fenlei\": \"电视剧$/vodshow/2--------#电影$/vodshow/1--------#综艺$/vodshow/3--------#动漫$/vodshow/4--------#番剧$/vodshow/26--------#国产剧$/vodshow/13--------#港台剧$/vodshow/14--------#日韩剧$/vodshow/15--------#欧美剧$/vodshow/16--------#动作片$/vodshow/1---动作-----#喜剧片$/vodshow/1---喜剧-----#爱情片$/vodshow/1---爱情-----#科幻片$/vodshow/1---科幻-----#恐怖片$/vodshow/1---恐怖-----#剧情片$/vodshow/1---剧情-----#战争片$/vodshow/1---战争-----#武侠片$/vodshow/1---武侠-----\",\r\n      \"houzhui\": \"---.html\",\r\n      \"shifouercijiequ\": \"0\",\r\n      \"jiequqian\": \"空\",\r\n      \"jiequhou\": \"空\",\r\n      \"jiequshuzuqian\": \"class=\\\"myui-vodlist__box\\\"\",\r\n      \"jiequshuzuhou\": \"</span>\",\r\n      \"tupianqian\": \"original=\\\"\",\r\n      \"tupianhou\": \"\\\"\",\r\n      \"biaotiqian\": \"title=\\\"\",\r\n      \"biaotihou\": \"\\\"\",\r\n      \"lianjieqian\": \"href=\\\"\",\r\n      \"lianjiehou\": \"\\\"\",\r\n      \"sousuoqian\": \"/index.php/ajax/suggest?mid=1&wd=\",\r\n      \"sousuohou\": \"&limit=500\",\r\n      \"sousuohouzhui\": \"/voddetail/\",\r\n      \"ssmoshi\": \"0\",\r\n      \"sousuoshifouercijiequ\": \"0\",\r\n      \"jspic\": \"pic\",\r\n      \"jsname\": \"name\",\r\n      \"jsid\": \"id\",\r\n      \"ssjiequqian\": \"空\",\r\n      \"ssjiequhou\": \"空\",\r\n      \"ssjiequshuzuqian\": \"空\",\r\n      \"ssjiequshuzuhou\": \"空\",\r\n      \"sstupianqian\": \"空\",\r\n      \"sstupianhou\": \"空\",\r\n      \"ssbiaotiqian\": \"空\",\r\n      \"ssbiaotihou\": \"空\",\r\n      \"sslianjieqian\": \"空\",\r\n      \"sslianjiehou\": \"空\",\r\n      \"bfshifouercijiequ\": \"0\",\r\n      \"bfjiequqian\": \"空\",\r\n      \"bfjiequhou\": \"空\",\r\n      \"bfjiequshuzuqian\": \"id=\\\"playlist\",\r\n      \"bfjiequshuzuhou\": \"</ul>\",\r\n      \"zhuangtaiqian\": \"class=\\\"otherbox\\\">\",\r\n      \"zhuangtaihou\": \"</p>\",\r\n      \"daoyanqian\": \"导演：</span>\",\r\n      \"daoyanhou\": \"</p>\",\r\n      \"zhuyanqian\": \"主演：</span>\",\r\n      \"zhuyanhou\": \"</p>\",\r\n      \"juqingqian\": \"<span class=\\\"data\\\"\",\r\n      \"juqinghou\": \"</span>\",\r\n      \"bfyshifouercijiequ\": \"0\",\r\n      \"bfyjiequqian\": \"空\",\r\n      \"bfyjiequhou\": \"空\",\r\n      \"bfyjiequshuzuqian\": \"<a\",\r\n      \"bfyjiequshuzuhou\": \"/a>\",\r\n      \"bfbiaotiqian\": \">\",\r\n      \"bfbiaotihou\": \"<\",\r\n      \"bflianjieqian\": \"href=\\\"\",\r\n      \"bflianjiehou\": \"\\\"\"\r\n    }"
     },
+
+    {
+      "key": "csp_biubiu_lezhu",
+      "name": "乐猪(Biu)",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "网上自己找XBIUBIU"
+    },
     {
       "key": "csp_xpath_01-猫群自维护源42",
       "name": "cokemv-解析文件由【云you】解析官方赞助-请勿商用盈利",
@@ -587,5 +598,6 @@
     "cms.qdwght.com"
   ],
   "wallpaper": "https://picsum.photos/1080",
-  "spider": "https://popizhen.github.io/mudanyue/老大给的custom_rcd-0424.jar"
+//  "spider": "https://popizhen.github.io/mudanyue/老大给的custom_rcd-0424.jar"
+"spider":"https://anglesgirl.github.io/0608.jar"
 }
