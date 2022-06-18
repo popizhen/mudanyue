@@ -2,7 +2,10 @@
     "author":"",
 	"ua": "",
     "homeUrl": "https://www.huya.com",
-
+//    "cateNode": "//ul[@class='game-list clearfix']/li/a",
+//	"cateName": "/p/text()",
+//	"cateId": "/@href",
+//	"cateIdR": "https://www.huya.com/g/(\\S+)",
     "cateManual": {
         "王者荣耀": "/g/2336",
         "绝地求生": "/g/2793",
@@ -29,7 +32,7 @@
 	"homeVodImg": "/a[contains(@class,'video-info')]/img/@data-original",
 	"homeVodImgR": "\\S*(//\\S+)",
 	"homeVodMark": "concat(/a[contains(@class,'video-info')]/em/text(),'-',/a[contains(@class,'video-info')]/p/em/text(),'-',/span/span[2]/a/text())",
-	"cateUrl": "https://www.huya.com/g/{cateId}?page={catePg}",
+	"cateUrl": "https://www.huya.com/{cateId}?page={catePg}",
 	"cateVodNode": "//ul[@class='live-list clearfix']/li",
 	"cateVodName": "/a[contains(@class,'title')]/text()",
 	"cateVodId": "/a[contains(@class,'video-info')]/@href",
