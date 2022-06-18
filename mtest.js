@@ -2,12 +2,12 @@
     "author":"",
 	"ua": "",
     "homeUrl": "https://www.huya.com",
-        "cateNode": "//ul[@class='game-list clearfix']/li/a",
-	"cateName": "/p/text()",
+   "cateNode": "//ul[@class='game-list clearfix']/li/a",
+"cateName": "/p/text()",
 	"cateId": "/@href",
 	"cateIdR": "https://www.huya.com/g/(\\S+)",
     "cateManual": {
-        
+
     },
 	"homeVodNode": "//ul[@class='index-list clearfix j_live-list']/li",
 	"homeVodName": "/a[contains(@class,'title')]/text()",
