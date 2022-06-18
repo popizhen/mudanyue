@@ -5,7 +5,7 @@
    "cateNode": "//ul[@class='game-list clearfix']/li/a",
 "cateName": "/p/text()",
 	"cateId": "/@href",
-	"cateIdR": "https://www.huya.com/g/(\\S+)",
+	"cateIdR": "https://www.huya.com/(\\S+)",
     "cateManual": {
 
     },
