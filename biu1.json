@@ -194,14 +194,11 @@
 "bfbiaotihou": "</a>",
 "bflianjieqian": "href=\"",
 "bflianjiehou": "\""},
-
 {"name": "小小",
 "url": "https://www.xxtv4.com",
 "tihuan": "cnzz.com",
 "User": "空",
-
 "fenlei": "电影$/vodtype/1-#电视剧$/vodtype/2-#综艺$/vodtype/4-#动漫$/vodtype/3-#喜剧片$/vodtype/20-#纪录片$/vodtype/26-#犯罪片$/vodtype/28-#灾难片$/vodtype/29-#恐怖片$/vodtype/6-#动作片$/vodtype/7-#爱情片$/vodtype/8-#悬疑片$/vodtype/9-#剧情片$/vodtype/10-#战争片$/vodtype/11-#科幻片$/vodtype/12-#欧美剧$/vodtype/22-#日韩剧$/vodtype/13-#港台剧$/vodtype/14-#华语剧$/vodtype/15-#泰国剧$/vodtype/16-#日韩动漫$/vodtype/23-#欧美动漫$/vodtype/24-#动画片$/vodtype/25-#国产动漫$/vodtype/27-"",
-
 "houzhui": ".html",
 "shifouercijiequ": "0",
 "jiequqian": "空",
@@ -214,7 +211,6 @@
 "biaotihou": "\"",
 "lianjieqian": "href=\"",
 "lianjiehou": "\"",
-
 //搜索部分基本不用动，现在网站基本都是苹果CMS，所有搜索是固定的。
 "sousuoqian": "/index.php/ajax/suggest?mid=1&wd=",
 "sousuohou": "&limit=500",
@@ -256,7 +252,6 @@
 "bfbiaotihou": "<",
 "bflianjieqian": "href=\"",
 "bflianjiehou": "\""},
-
 {"name": "在线之家",
 "url": "https://www.zxzjtv.com",
 "tihuan": "cnzz.com",
