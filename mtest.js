@@ -1,6 +1,6 @@
 {
     "author": "春风",
-    "ua": "Mozilla/5.0 (Linux; Android 10; LYA-AL00; HMSCore 6.4.0.312; GMSCore 20.15.16) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 HuaweiBrowser/11.0.4.300 Mobile Safari/537.36",
+    "ua": "Mozilla/5.0 (Linux; U; Android 5.0; zh-Hans-CN; HTC 802t Build/KTU84L) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 Quark/5.7.6.217 Mobile Safari/537.36,
     "homeUrl": "https://www.2345ka.com",
     "dcVipFlag": "true",
     "dcPlayUrl": "true",
