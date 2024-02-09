@@ -63,7 +63,7 @@
     },
     {
       "key": "酷看",
-      "name": "💡酷看App",
+      "name": "酷看App",
       "type": 3,
       "api": "csp_Kkys",
       "searchable": 1,
@@ -72,7 +72,7 @@
     },
     {
       "key": "南瓜",
-      "name": "🎃南瓜App",
+      "name": "南瓜App",
       "type": 3,
       "api": "csp_NanGua",
       "playerType": 2,
@@ -82,7 +82,7 @@
     },
     {
       "key": "77",
-      "name": "👒七七App",
+      "name": "七七App",
       "type": 3,
       "api": "csp_Kunyu77",
       "searchable": 1,
@@ -101,7 +101,7 @@
     },
     {
       "key": "毛驴",
-      "name": "🍓毛驴直连",
+      "name": "毛驴直连",
       "type": 3,
       "api": "csp_MLYS",
       "searchable": 1,
@@ -111,7 +111,7 @@
     },
     {
       "key": "小柚",
-      "name": "🍊小柚App",
+      "name": "小柚App",
       "type": 3,
       "api": "csp_AppSK",
       "searchable": 1,
@@ -121,7 +121,7 @@
     },
     {
       "key": "星奇",
-      "name": "💥星奇App",
+      "name": "星奇App",
       "type": 3,
       "api": "csp_AppMao",
       "playerType": 2,
@@ -132,7 +132,7 @@
     },
     {
       "key": "一起看 ",
-      "name": "🎉一起看App",
+      "name": "一起看App",
       "type": 3,
       "api": "csp_YQKan",
       "searchable": 1,
