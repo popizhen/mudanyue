@@ -170,16 +170,6 @@
       "changeable": 1
     },
     {
-      "key": "Lib",
-      "name": "利播",
-      "type": 3,
-      "api": "csp_Libvio",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://www.libvio.pw/"
-    },
-    {
       "key": "Auete",
       "name": "奥特",
       "type": 3,
