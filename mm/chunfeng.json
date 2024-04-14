@@ -44,6 +44,7 @@
       "key":"酷看",
       "name":"💖酷看",
       "type":3,"api":"csp_Kk",
+      "timeout": 15,
       "playerType": 1,
       "searchable":1,
       "quickSearch":1,
