@@ -48,7 +48,8 @@
       "playerType": 1,
       "searchable":1,
       "quickSearch":1,
-      "changeable":1
+      "changeable":1,
+      "ext": "./lib/酷看.js"    
     },
 /*    {
       "key": "💖苹果",
