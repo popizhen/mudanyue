@@ -267,15 +267,7 @@
       "changeable": 1,
       "jar": "./jar/ttjiy.txt"
     },*/
-    {
-      "key": "Wexxiongdiys",
-      "name": "💖基友",
-      "type": 3,
-      "api": "csp_Wexxiongdiys",
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "./jar/ttjiy.txt"
-    },
+
 /*    {
       "key":"csp_CandyMuj_freeok",
       "name":"💖FREEOK",
@@ -560,18 +552,7 @@
                 "日本动漫"
             ]
     },   
-    {
-      "key": "Fangniu4k",
-      "name": "💖放牛·4k",
-      "type": 3,
-      "api": "csp_WexFangniu4k",
-      "searchable": 1,
-      "changeable": 0,
-      "jar": "./jar/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e"
-    },
-    
-
-             
+                 
     {
       "key": "DiDuan",
       "name": "💖低端",
