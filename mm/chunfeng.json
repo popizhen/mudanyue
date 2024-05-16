@@ -187,7 +187,7 @@
       "分类url":"https://www.baipiaoys.com:9092/show/area/{area}/class/{class}/id/{cateId}/page/{catePg}/lang/{lang}/letter/{letter}/year/{year}.html"
     },
       "jar":"https://notabug.org/qdpdwjx/ziyuan/raw/master/JAR/XBPQ2.jar;md5;BB155C3F0133BBCE4756AD52003F5968"
-    },  */
+    }, 
     {
       "key": "csp_xBPQ_白嫖",
       "name": "💖白嫖影视",
@@ -198,7 +198,7 @@
       "filterable": 1,
       "jar": "./jar/XBPQ2.jar",
       "ext": "./lib/白嫖影视.json"
-    },  
+    },  */
     {
       "key": "csp_xBPQ可可",
       "name": "💖可可影视",
