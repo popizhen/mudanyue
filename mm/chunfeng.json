@@ -108,8 +108,12 @@
       "key": "南瓜",
       "name": "💖南瓜",
       "type": 3,
-      "playerType": "2",
       "api": "./lib/drpy2.min.js",
+      "timeout": 15,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,	    
       "ext": "./lib/南瓜.js"
     },  
     {
@@ -360,6 +364,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
+      "changeable": 1,	    
       "ext": "./lib/文才.json",
       "jar":"https://notabug.org/qdpdwjx/ziyuan/raw/master/JAR/XBPQ2.jar;md5;BB155C3F0133BBCE4756AD52003F5968"      
     },
