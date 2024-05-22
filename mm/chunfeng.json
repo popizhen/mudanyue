@@ -215,7 +215,7 @@
       "name": "💖明日影视",
       "type": 3,
       "api": "csp_WexMingriys",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/xpbq.php",
+      "jar": "./jar/ouge.jar;md5;4495fe73857453523ad8b87b1e4a57be",
       "searchable": 1,
       "changeable": 1
     },  
