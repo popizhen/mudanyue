@@ -63,7 +63,7 @@
     },  
     
     
-    {
+/*    {
       "key": "JOJO",
       "name": "💖JOJO",
       "type": 3,
@@ -84,7 +84,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "FbjPcVZY48PN/RIZ5QqOrsp7JoZYCZdLEy9R9ri6ykNdUNSIsT3IgxCP9qyzByO7ZG6Z030vgWoyXGNlCJx9KFpYXtyZ3B/cLTtO0SAclaw3AOm0fS9oLx2taGF6hg=="
-    },  
+    },  */
     {
       "key": "csp_xBPQ可可",
       "name": "💖可可影视",
@@ -209,13 +209,12 @@
       "filterable": 1,
       "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=星辰"
     },
-        
 {
       "key": "明日影视",
       "name": "💖明日影视",
       "type": 3,
       "api": "csp_WexMingriys",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/xpbq.php",
+      "jar": "./jar/ouge.jar;md5;4495fe73857453523ad8b87b1e4a57be",
       "searchable": 1,
       "changeable": 1
     },  
