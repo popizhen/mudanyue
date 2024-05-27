@@ -188,16 +188,7 @@
       "jar":"./jar/ttkx.jar;md5;f9fa950fb7399708fc10f7b2218baaa5"
     
     },  
-    {
-      "key": "csp_CandyMuj_freeok",
-      "name": "💖FreeOK",
-      "type": 3,
-      "api": "csp_CandyMuj_freeok",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "jar": "./jar/candymuj.jar;md5;72b2a734c18f24de9b358e136df61a8c"
-    },   
+
     {
       "key": " 星辰影",
       "name": "💖星辰影视",
